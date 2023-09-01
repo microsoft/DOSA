@@ -17,5 +17,9 @@ Set the below environment variables in the .env file
 
 Also, export the `PYTHONPATH` variable so that all the packages can work correctly. To add `PYTHONPATH`, write this command on your terminal: `export PYTHONPATH=$PYTHONPATH:<path to cultural_artifacts>`
 
+### Notebooks
+Please use Jupyter notebooks to run the notebooks residing under `notebooks` directory. The vscode notebook does not work as intended.
+To use jupyter notebooks, run this on your terminal: `jupyter-notebook`.
+
 *Note*
 Make sure that you apply for an access to Llama 2 model. Also, we use HuggingFace to download the llama2 model. Ensure that you use the same email id as the one that you used to apply for the access to the llama 2 model. Generate the `HF_TOKEN` and then store it in the `.env` file
