@@ -1,4 +1,4 @@
-from torch import cuda, bfloat16
+from torch import cuda
 from dotenv import load_dotenv
 import torch
 from transformers import (
@@ -19,18 +19,23 @@ model_id = "meta-llama/Llama-2-13b-chat-hf"
 device = f"cuda:{cuda.current_device()}" if cuda.is_available() else "cpu"
 
 # begin initializing HF items, you need an access token
-hf_auth = os.getenv("HF_TOKEN")
-model_config = AutoConfig.from_pretrained(model_id, use_auth_token=hf_auth)
 
-model = AutoModelForCausalLM.from_pretrained(
+def get_model_tokenizer(model_id, hf_token=os.getenv("HF_TOKEN")):
+    model_config = AutoConfig.from_pretrained(model_id, use_auth_token=hf_token)
+    model = AutoModelForCausalLM.from_pretrained(
     model_id,
     trust_remote_code=True,
     config=model_config,
     device_map="auto",
-    use_auth_token=hf_auth,
+    use_auth_token=hf_token,
 )
 
-tokenizer = AutoTokenizer.from_pretrained(model_id, use_auth_token=hf_auth)
+    tokenizer = AutoTokenizer.from_pretrained(model_id, use_auth_token=hf_token)
+    return model, tokenizer    
+
+
+model, tokenizer = get_model_tokenizer(model_id=model_id)
+
 
 stop_list = ["\nHuman:", "\n```\n"]
 
@@ -68,7 +73,8 @@ def generate_text():
 
 
 
-def decode_output(pr):
+def decode_output(model, tokenizer, pr):
+    model.eval()
     model_inputs = tokenizer(pr, return_tensors="pt").to("cuda:0")
     input_ids = model_inputs["input_ids"]
     output = model.generate(**model_inputs, temperature=0.1)
