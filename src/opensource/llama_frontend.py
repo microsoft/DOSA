@@ -23,12 +23,15 @@ prompt_template_1 = PromptTemplate.from_template(SYS_LLAMA_TEMPLATE)
 partial_template = prompt_template_1.partial(cluelist=clues_string)
 
 
-def chat_pipeline():
+def chat_pipeline(prompt_text, partial_template=False):
     llm = HuggingFacePipeline(pipeline=generate_text())
-
+    prompt_template = PromptTemplate.from_template(prompt_text)
+    if partial_template:
+        prompt_template = prompt_template.partial(cluelist=clues_string)
+    
     chatgpt_chain = LLMChain(
         llm=llm,
-        prompt=partial_template,
+        prompt=prompt_template,
         verbose=False,
         memory=ConversationBufferWindowMemory(k=2, memory_key="chat_history"),
         llm_kwargs={"max_length": 4096},
