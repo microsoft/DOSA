@@ -2,3 +2,4 @@
 *.vscode
 *.env
 *.ipynb_checkpoints
+*models_downloaded.txt
