@@ -1,2 +1,3 @@
-this is a breakfast item.
+This is a fried breakfast item.
+It is commonly consumed with Tea.
 Eaten every Sunday morning and Gujarati's cannot skip it.
