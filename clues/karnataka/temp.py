@@ -14,7 +14,9 @@ def get_csv(file_path):
             st+=l+'\n'
         
         try:
-            artifact = file.split('/')[-1].split('_')[1].split('.txt')[0]
+            if 'notes.txt' in file:
+                continue
+            artifact = (' '.join(file.split('/')[-1].split('_')[1:]).split('.txt')[0]).strip().lower()
             df = df.append({
                 "artifact":artifact,
                 "clues": st
