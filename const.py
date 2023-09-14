@@ -35,4 +35,7 @@ STATE_CLUES_NOTES_DICT = {
         generate_abs_path("clues/telangana/notes.csv"),
     ],
     "west_bengal": [generate_abs_path("clues/west_bengal/west_bengal_clues.csv")],
+    "kerala": [generate_abs_path("clues/kerala/kerala_clues.csv"), generate_abs_path("clues/kerala/kerala_notes.csv")],
+    "chattisgarh": [generate_abs_path("clues/chhattisgarh/artifact_clues.csv")],
+    "delhi": [generate_abs_path("clues/delhi/delhi_clues.csv")]
 }
