@@ -17,8 +17,8 @@ import os
 
 load_dotenv()
 
-model_id = "meta-llama/Llama-2-13b-chat-hf"
-
+# model_id = "meta-llama/Llama-2-13b-chat-hf"
+model_id = "ichitaka/falcon-40b-instruct-8bit"
 
 device = f"cuda:{cuda.current_device()}" if cuda.is_available() else "cpu"
 
@@ -65,10 +65,12 @@ stopping_criteria = StoppingCriteriaList([StopOnTokens()])
 def generate_text():
     return pipeline(
         model=model,
+        eos_token_id=tokenizer.eos_token_id,
         tokenizer=tokenizer,
         return_full_text=True,  # langchain expects the full text
         # task="text2text-generation",
         task="text-generation",
+        trust_remote_code=True,
         # we pass model parameters here too
         stopping_criteria=stopping_criteria,  # without this model rambles during chat
         temperature=0.1,  # 'randomness' of outputs, 0.0 is the min and 1.0 the max
