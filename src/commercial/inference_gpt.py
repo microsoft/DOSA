@@ -1,45 +1,47 @@
 import warnings
 import openai
-from typing import List, Dict, Union
-from tenacity import (
-    retry,
-    stop_after_attempt,
-    wait_random_exponential,
-)  # for exponential backoff
+from dotenv import load_dotenv
+from utils import load_openai_env_variables
+# from tenacity import (
+#     retry,
+#     stop_after_attempt,
+#     wait_random_exponential,
+# )  # for exponential backoff
 
+from backoff import on_exception, expo
 CHAT_MODELS = [
-    "gpt-35-turbo-deployment",
-    "gpt4_deployment",
-    "gptturbo",
     "gpt-4",
     "gpt-35-turbo",
+    "gpt-35-turbo-16k",
     "gpt-4-32k",
-    "gpt-35-tunro",
 ]
 
 
+load_dotenv()
+load_openai_env_variables()
 
-@retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6))
-def gpt3x_completion(prompt: str, model: str, **model_params):
 
-    if model in CHAT_MODELS:
-        openai.api_version = "2023-03-15-preview"
-    else:
-        openai.api_version = "2022-12-01"
+@on_exception(expo, openai.error.RateLimitError)
+def gpt3x_completion(sys_prompt: str,inst_prompt, model: str, **model_params):
     
     try:
-        response = openai.Completion.create(
+        response = openai.ChatCompletion.create(
                     engine=model,
-                    prompt=prompt,
-                    max_tokens=model_params.get("max_tokens", 20),
-                    temperature=model_params.get("temperature", 1),
-                    top_p=model_params.get("top_p", 1),
+                    messages = [
+                        {"role": "system", "content": sys_prompt},
+                        {"role": "user", "content": inst_prompt}
+                    ],
+                    temperature=model_params.get("temperature", 0),
                 )
     except (openai.error.APIConnectionError, openai.error.RateLimitError) as e:
         warnings.warn(
                 "Couldn't generate response, returning empty string as response"
             )
         return ""
-
-    output = response["choices"][0]["text"].strip().split("\n")[0]
+    output = response["choices"][0]["message"]["content"].strip()
     return output 
+
+
+if __name__ == "__main__":
+    output = gpt3x_completion("you are an experienced travel agent.", "give me an itinerary for a trip to iceland for 10 days", "gpt-4")
+    print(output)
