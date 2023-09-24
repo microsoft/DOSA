@@ -2,13 +2,16 @@ import warnings
 import openai
 from dotenv import load_dotenv
 from utils import load_openai_env_variables
-# from tenacity import (
-#     retry,
-#     stop_after_attempt,
-#     wait_random_exponential,
-# )  # for exponential backoff
+from langchain.llms import AzureOpenAI
+from src.commercial.templates import SYS_GPT_TEMPLATE, INST_GPT_TEMPLATE
+from langchain.prompts import PromptTemplate
+from langchain.chains import LLMChain, ConversationChain
+from langchain.memory import ConversationBufferMemory
+
+import os
 
 from backoff import on_exception, expo
+
 CHAT_MODELS = [
     "gpt-4",
     "gpt-35-turbo",
@@ -21,27 +24,56 @@ load_dotenv()
 load_openai_env_variables()
 
 
-@on_exception(expo, openai.error.RateLimitError)
-def gpt3x_completion(sys_prompt: str,inst_prompt, model: str, **model_params):
-    
-    try:
-        response = openai.ChatCompletion.create(
-                    engine=model,
-                    messages = [
-                        {"role": "system", "content": sys_prompt},
-                        {"role": "user", "content": inst_prompt}
-                    ],
-                    temperature=model_params.get("temperature", 0),
-                )
-    except (openai.error.APIConnectionError, openai.error.RateLimitError) as e:
-        warnings.warn(
-                "Couldn't generate response, returning empty string as response"
-            )
-        return ""
-    output = response["choices"][0]["message"]["content"].strip()
-    return output 
 
+
+
+@on_exception(expo, openai.error.RateLimitError)
+def gpt_chat_pipeline(
+    clue_list: str,
+    prompt: str,
+    # conversation_buffer=None,
+    model_name: str = "gpt-35-turbo",
+):
+    # if conversation_buffer is None:
+    #     raise ValueError(
+    #         "Please provide a conversation buffer object for the LLMChain to work"
+    #     )
+
+    llm = AzureOpenAI(
+        engine=model_name,
+        openai_api_key=os.environ["OPENAI_API_KEY"],
+        openai_api_base=os.environ["OPENAI_END_POINT"],
+        openai_api_type=os.environ["OPENAI_API_TYPE"],
+        openai_api_version=os.environ["OPENAI_API_VERSION"],
+        temperature=0,
+    )
+
+    prompt_template = PromptTemplate(input_variables=["cluelist", "chat_history", "input"], template=prompt)
+    prompt_template = prompt_template.partial(cluelist=clue_list)
+
+    gpt_chain = ConversationChain(
+        llm=llm,
+        prompt=prompt_template,
+        verbose=False,
+        memory=ConversationBufferMemory(ai_prefix="Agent", memory_key="chat_history")
+    )
+    # gpt_chain = LLMChain(
+    #     llm=llm,
+    #     prompt=prompt_template,
+    #     verbose=False,
+    #     memory=conversation_buffer,
+    # )
+    return gpt_chain
+
+
+    # output = gpt3x_completion("you are an experienced travel agent.", "give me an itinerary for a trip to iceland for 10 days", "gpt-4")
+    # print(output)
 
 if __name__ == "__main__":
-    output = gpt3x_completion("you are an experienced travel agent.", "give me an itinerary for a trip to iceland for 10 days", "gpt-4")
-    print(output)
+    cluelist = 'CLUE-1: Quite a famous summer punjabi drink\nCLUE-2: It is made using curd'
+    agent = gpt_chat_pipeline(clue_list=cluelist, prompt=SYS_GPT_TEMPLATE)
+    inst_prompt_template = PromptTemplate.from_template(INST_GPT_TEMPLATE)
+    inst_input = inst_prompt_template.template.format(state="Punjab")
+    ans = agent.predict(input=inst_input)
+    tt = type(ans)
+    print(tt)
