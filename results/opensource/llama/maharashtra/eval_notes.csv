@@ -1,69 +1,39 @@
 guess1,guess2,ground_truth,clues
-modak,NA,modak,"It is a maharashtrian dessert
-This is eaten during ganesh chaturthi"
-rice,pav bhaji,vada pav,"It is an every-day food item
-This is quite famous in Mumbai"
-lavani,bharatiya natya sangeet,powada,"It is a type of song
-This song is used to tell stories related to shivaji maharaj
-It is a marathi ballad
-Mostly played during shivaji jayanti"
-"the object is ""jhumta"".","the object is ""namjari"".",lavani,"It is an old form of dance
-This form of dance is usually practiced when the villagers are done harvesting their crops"
-falooda,kokum sherbet,sol kadhi,"it is a drink from maharashtra konkan coast
-it is made of kokam and coconut milk
-it is pink in color"
-baandhaan.,kantha.,paithani,"it is a famous type of saree
-it has a peacock designed on it"
-local train,NA,local train,"it is the most common form of travel in mumbai
-also called the lifeline of mumbai"
-ellora caves,ajanta caves,ajanta caves,"One of the famous caves in maharashtra
-They consist of buddhist cave monuments"
-bollywood,NA,bollywood,one of the famous acting industry in mumbai
-chutney,aam ka murabba (mango pickle),aam ras,"this dish is usually had with poori
-It is made of mangoes"
-poori,chawal ki kali dal,tandalachi bhakri,"this is an alternative to roti
-it is made of rice
-it is white in color
-it is had with"
-shirdi sai baba temple,NA,shirdi,"it is a place that is associated with sai baba
-it is situated near nashik"
-ganesh statue,bhelpuri,aksa beach,"this is a beach in mumbai
-situated near malad area"
-paplet.,rohu.,bangda fish curry,"it is a konkani famous fish curry
-The fish that is used to make this curry is a flat fish"
-roti.,rice.,zunka bhakri,"it is an every-day meal in maharashtrian villages
-it's a poor-man's lunch item"
-modak,NA,modak,"It is a maharashtrian dessert
-This is eaten during ganesh chaturthi"
-rice,pav bhaji,vada pav,"It is an every-day food item
-This is quite famous in Mumbai"
-lavani,bharud,powada,"It is a type of song
-This song is used to tell stories related to shivaji maharaj
-It is a marathi ballad
-Mostly played during shivaji jayanti"
-"the object is the ""jhumar"" dance.","the object is the ""langgade"" dance.",lavani,"It is an old form of dance
-This form of dance is usually practiced when the villagers are done harvesting their crops"
-falooda,kokum sherbet,sol kadhi,"it is a drink from maharashtra konkan coast
-it is made of kokam and coconut milk
-it is pink in color"
-baandhaan.,kantha.,paithani,"it is a famous type of saree
-it has a peacock designed on it"
-local train,NA,local train,"it is the most common form of travel in mumbai
-also called the lifeline of mumbai"
-ellora caves,ajanta caves,ajanta caves,"One of the famous caves in maharashtra
-They consist of buddhist cave monuments"
-bollywood,NA,bollywood,one of the famous acting industry in mumbai
-chutney,aam ka murabba,aam ras,"this dish is usually had with poori
-It is made of mangoes"
-poori,paratha,tandalachi bhakri,"this is an alternative to roti
-it is made of rice
-it is white in color
-it is had with"
-shirdi sai baba temple,NA,shirdi,"it is a place that is associated with sai baba
-it is situated near nashik"
-ganesh statue,bhelpuri,aksa beach,"this is a beach in mumbai
-situated near malad area"
-paplet.,rohu.,bangda fish curry,"it is a konkani famous fish curry
-The fish that is used to make this curry is a flat fish"
-roti.,rice.,zunka bhakri,"it is an every-day meal in maharashtrian villages
-it's a poor-man's lunch item"
+rasgulla,litti,puran poli,"this is a sweet dish
+This dish is usually made on festivals where you cannot make non-veg dishes"
+lassi,falooda,kokam sharbat,"a drink usually had during ganesh chaturthi
+this drink is quite popular in konkan region"
+lassi,falooda,aam panna,"a cold drink made of mangoes
+this is usually had during  summers and during ganesh chaturthi"
+rasgulla,litti,modak,a sweet dish made during ganesh chaturthi
+modak.,puran poli,pedhe,"it is a sweet dish quite popular in maharashtra
+is also used as an offering at temples and during marathi festivals"
+gulal.,mehndi,utna,"it is a powder that is applied on your skin before taking a bath during diwali
+it is made of flowers and multani mitti"
+navratri,durga puja,gudi padwa,"this is also known as marathi new year
+a metallic vessel attached to a scarf and hung outside the house during this festival
+new things are usually bought during this festival"
+navaratri,durga puja,makar sakranti,"during this festival kites are usually flown
+during this day a sweet dish called tilgul and ladu are exchanged"
+chicken lollipop,misal pav,tambda rassa,"this dish is usually found in kolhapur
+this dish is quite spicy"
+bhai dooj,chhath puja,bhaubeej,"this festival celebrates the bond between a brother and sister
+gifts are usually exchanged during this day"
+upanayana,rakhi,munj,"this ritual is usually performed on 12-13 year old boys
+this ritual involves shaving of head
+janeu is given to boys during this ceremony"
+poha.,chura.,pohe,"this is a breakfast item
+this is made of flattened rice"
+gateway of india,NA,gateway of india,"this monument is situated in mumbai
+this was built by britshers
+this is situated on the coast of mumbai"
+navjote ceremony.,chhath puja,barse,"this ritual is done post the birth of the baby
+this is basically a naming ceremony for the baby"
+sari,salwar kameez,dohale jevan,this ritual involves a pregnant woman dressing up in green with a bow and arrow for a photo shoot
+laddu.,barfi,faral,"this dish is made exclusively during diwali
+this dish is also shared with relatives and neighbors
+this dish is mostly eaten in dinner during diwali"
+rassa.,bafauri.,varadi cuisine,"these type of cuisine is usually found in vidarbha region of maharashtra
+this is a spicier take on marathi food cuisine"
+barfi,ladoo,diwali farad,"this is a collection of food items made in every household during diwali
+this collection include items like chakali, kiranji, chivda, ladoo, anarse, kadboli"
