@@ -2,6 +2,7 @@ from torch import cuda
 from dotenv import load_dotenv
 import torch
 import warnings
+
 warnings.filterwarnings("ignore")
 
 from transformers import (
@@ -10,7 +11,7 @@ from transformers import (
     AutoConfig,
     StoppingCriteria,
     StoppingCriteriaList,
-    pipeline
+    pipeline,
 )
 
 import os
@@ -18,51 +19,48 @@ import os
 load_dotenv()
 
 # model_id = "meta-llama/Llama-2-13b-chat-hf"
-model_id = "ichitaka/falcon-40b-instruct-8bit"
+# model_id = "ichitaka/falcon-40b-instruct-8bit"
 
 device = f"cuda:{cuda.current_device()}" if cuda.is_available() else "cpu"
 
 
-
 # begin initializing HF items, you need an access token
+
 
 def get_model_tokenizer(model_id, hf_token=os.getenv("HF_TOKEN")):
     model_config = AutoConfig.from_pretrained(model_id, use_auth_token=hf_token)
     model = AutoModelForCausalLM.from_pretrained(
-    model_id,
-    trust_remote_code=True,
-    config=model_config,
-    device_map='auto',
-    use_auth_token=hf_token,
-)
+        model_id,
+        trust_remote_code=True,
+        config=model_config,
+        device_map="auto",
+        use_auth_token=hf_token,
+    )
     tokenizer = AutoTokenizer.from_pretrained(model_id, use_auth_token=hf_token)
-    return model, tokenizer    
-
-
-model, tokenizer = get_model_tokenizer(model_id=model_id)
-
-
-stop_list = ["\nHuman:", "\n```\n"]
-
-stop_token_ids = [tokenizer(x)["input_ids"] for x in stop_list]
-stop_token_ids = [torch.LongTensor(x).to(device) for x in stop_token_ids]
+    return model, tokenizer
 
 
 class StopOnTokens(StoppingCriteria):
+    def __init__(self, stop_token_ids):
+        self.stop_token_ids = stop_token_ids
+
     def __call__(
         self, input_ids: torch.LongTensor, scores: torch.FloatTensor, **kwargs
     ) -> bool:
-        for stop_ids in stop_token_ids:
+        for stop_ids in self.stop_token_ids:
             if torch.eq(input_ids[0][-len(stop_ids) :], stop_ids).all():
                 return True
         return False
 
 
-stopping_criteria = StoppingCriteriaList([StopOnTokens()])
+def generate_text(model_id):
+    model, tokenizer = get_model_tokenizer(model_id=model_id)
+    stop_list = ["\nHuman:", "\n```\n"]
 
-
-
-def generate_text():
+    stop_token_ids = [tokenizer(x)["input_ids"] for x in stop_list]
+    stop_token_ids = [torch.LongTensor(x).to(device) for x in stop_token_ids]
+    stop_on_tokens = StopOnTokens(stop_token_ids)
+    stopping_criteria = StoppingCriteriaList([stop_on_tokens])
     return pipeline(
         model=model,
         eos_token_id=tokenizer.eos_token_id,
@@ -80,8 +78,6 @@ def generate_text():
     )
 
 
-
-
 def decode_output(model, tokenizer, pr):
     model.eval()
     model_inputs = tokenizer(pr, return_tensors="pt").to("cuda:0")
@@ -90,8 +86,8 @@ def decode_output(model, tokenizer, pr):
     # return (tokenizer.decode(output[0], skip_special_tokens=True))
     return tokenizer.decode(output[0, input_ids.shape[1] :], skip_special_tokens=True)
 
+
 if __name__ == "__main__":
     # ans = decode_output(model, tokenizer, temp_template)
     pipe = generate_text()
     # print(ans)
-
