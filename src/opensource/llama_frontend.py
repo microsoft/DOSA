@@ -1,8 +1,5 @@
-from src.opensource.llama_backend import generate_text
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
-from langchain.llms import HuggingFacePipeline
-import os
 
 
 def chat_pipeline(

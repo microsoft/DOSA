@@ -6,11 +6,11 @@ import warnings
 warnings.filterwarnings("ignore")
 
 from transformers import (
-    AutoModelForCausalLM,
     AutoTokenizer,
     AutoConfig,
     StoppingCriteria,
     StoppingCriteriaList,
+    AutoModelForCausalLM,
     pipeline,
 )
 
@@ -28,7 +28,7 @@ device = f"cuda:{cuda.current_device()}" if cuda.is_available() else "cpu"
 
 
 def get_model_tokenizer(model_id, hf_token=os.getenv("HF_TOKEN")):
-    model_config = AutoConfig.from_pretrained(model_id, use_auth_token=hf_token)
+    model_config = AutoConfig.from_pretrained(model_id, use_auth_token=hf_token, trust_remote_code=True)
     model = AutoModelForCausalLM.from_pretrained(
         model_id,
         trust_remote_code=True,
@@ -47,13 +47,14 @@ class StopOnTokens(StoppingCriteria):
     def __call__(
         self, input_ids: torch.LongTensor, scores: torch.FloatTensor, **kwargs
     ) -> bool:
+        input_ids = input_ids.to(device)
         for stop_ids in self.stop_token_ids:
             if torch.eq(input_ids[0][-len(stop_ids) :], stop_ids).all():
                 return True
         return False
 
 
-def generate_text(model_id):
+def generate_text(model_id: str):
     model, tokenizer = get_model_tokenizer(model_id=model_id)
     stop_list = ["\nHuman:", "\n```\n"]
 
@@ -72,9 +73,10 @@ def generate_text(model_id):
         # we pass model parameters here too
         stopping_criteria=stopping_criteria,  # without this model rambles during chat
         temperature=0.1,  # 'randomness' of outputs, 0.0 is the min and 1.0 the max
-        max_new_tokens=4096,  # max number of tokens to generate in the output
+        max_new_tokens=500,  # max number of tokens to generate in the output
         repetition_penalty=1.1,  # without this output begins repeating
         do_sample=True,
+        torch_dtype=torch.bfloat16,
     )
 
 

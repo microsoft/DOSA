@@ -1,0 +1,54 @@
+guess1,guess2,ground_truth,clues
+"The object is called ""Pittha"".","my second guess is ""chakli"".
+assistant",modak,"It is a maharashtrian dessert
+This is eaten during ganesh chaturthi
+the filling for this dish consist of coconut"
+"The object is called ""Vada Pav"".","my second guess is ""bhel puri"".
+assistant",vada pav,"It is an every-day food item
+This is quite famous in Mumbai
+this dish is typically served with bread
+this dish pairs up well with chutney and chilli"
+"The object is called ""Shivaji Maharaj Geet"".","my second guess is ""shivaji maharaj bhajan"".
+assistant",powada,"It is a type of song
+This song is used to tell stories related to shivaji maharaj
+It is a marathi ballad
+Mostly played during shivaji jayanti"
+"the object is called ""chhau dance"".","the object is called ""chhau dance"".
+<p>the correct answer is chhau dance. it is an ancient indian martial art form that originated in jharkhand. it is performed during harvest festivals and other important occasions by the tribal communities of jharkhand. the dancers wear masks and elaborate costumes while performing the dance.</p>",lavani,"It is an old form of dance
+This form of dance is usually practiced when the villagers are done harvesting their crops"
+kokum sherbet,"koliwada fish fry
+user",sol kadhi,"it is a drink from maharashtra konkan coast
+it is made of kokam and coconut milk
+it is pink in color"
+"The object is ""Kohbar Saree"".","my second guess is ""chhattisgarhi saree"".
+assistant",paithani,"it is a famous type of saree
+it has a peacock designed on it"
+"the object is called ""local train"".",NA,local train,"it is the most common form of travel in mumbai
+also called the lifeline of mumbai"
+What is the name of the object?,"your first guess is not correct. while making your second guess, please stick to the format as answer",ajanta caves,"One of the famous caves in maharashtra
+They consist of buddhist cave monuments"
+"the name of the object is ""jharkhandi chhau mask"".",jharkhandi chhau mask is a traditional mask used in the chhau dance performances of jharkhand state in india. it is made of wood and decorated with intricate designs and colors. the masks represent different characters in the performance and are considered an important aspect of the cultural heritage of jharkhand.,bollywood,one of the famous acting industry in mumbai
+"The object is called ""Aam ka Achaar"".","my second guess is ""mango pickle"".
+assistant",aam ras,"this dish is usually had with poori
+It is made of mangoes
+this dish is usually served during sumers"
+puri</p>,idli</p>,tandalachi bhakri,"this is an alternative to roti
+it is made of rice
+it is white in color"
+"The object is called ""Shirdi Sai Baba Temple"".","my second guess is ""durga puja"".
+assistant",shirdi,"it is a place that is associated with sai baba
+it is situated near nashik"
+"the name of the object is ""marathi"".","the name of the object is ""marathi"".
+<p>correct! marathi is the language spoken by the people of mumbai and the surrounding areas. it is one of the official languages of maharashtra state in india.</p>",aksa beach,"this is a beach in mumbai
+situated near malad area"
+"<answer>
+assistant","yes, that is correct.
+assistant",bangda fish curry,"it is a konkani famous fish curry
+The fish that is used to make this curry is a flat fish"
+"The object is called ""chapati"".","my second guess is ""dosa"".
+assistant",zunka bhakri,"it is an every-day meal in maharashtrian villages
+it's a poor-man's lunch item"
+"<p>The object is called ""Dhuska"".</p>","my second guess is ""roti"".
+assistant",pithla bhakri,"this is a very common type of bhakri
+this bhakri is made of jowar
+this bhakri is usually eaten with besan"
