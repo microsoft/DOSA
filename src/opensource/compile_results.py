@@ -1,9 +1,13 @@
-from utils import get_clues, generate_abs_path
+import time
+from timeout_decorator import timeout
+from typing import Dict, List
 from src.opensource.llama_frontend import chat_pipeline
 from src.opensource.llama_backend import generate_text
 import pandas as pd
 import os
+from langchain import HuggingFaceHub
 from langchain.prompts import PromptTemplate
+from dotenv import load_dotenv
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.llms import HuggingFacePipeline
 from src.opensource.templates import (
@@ -14,16 +18,24 @@ from src.opensource.templates import (
 )
 from const import STATE_CLUES_NOTES_DICT
 
+load_dotenv()
+
+# @timeout(60)  # Set a timeout of 60 seconds (adjust as needed)
+def predict_guess(agent, inst_template):
+    return agent.predict(human_input=inst_template)
+
 
 def get_outputs(
     df: pd.DataFrame,
-    conversation_buffer,
+    conversation_buffer: ConversationBufferWindowMemory,
     inst_template: str,
     llm,
     sys_template: str,
 ) -> pd.DataFrame:
     df_eval = pd.DataFrame(columns=["guess1", "guess2", "ground_truth", "clues"])
-    df = df[df['artifact'].notna()] # remove those instances for those we do not have the artifact name
+    df = df[
+        df["artifact"].notna()
+    ]  # remove those instances for those we do not have the artifact name
     for i, row in df.iterrows():
         print(f"artifact--{i}---")
         clues = row["clues"].strip().split("\n")
@@ -39,7 +51,13 @@ def get_outputs(
             prompt_text=sys_template,
             conversation_buffer=conversation_buffer,
         )
-        guess1 = agent.predict(human_input=inst_template)
+        try:
+            guess1 = predict_guess(agent, inst_template)
+        except Exception as e:
+            print(e)
+            print(f"This example passed out: {artifact}, skipping")
+            continue
+
         guess1 = (
             guess1.split(":")[1].strip().lower()
             if len(guess1.split(":")) > 1
@@ -58,9 +76,13 @@ def get_outputs(
             conversation_buffer.clear()
             continue
         else:
-            guess2 = agent.predict(
-                human_input="Your first guess is not correct. While making your second guess, please stick to the format as ANSWER: your_answer_here"
+            guess2 = predict_guess(
+                agent,
+                inst_template="Your first guess is not correct. While making your second guess, please stick to the format as ANSWER: your_answer_here",
             )
+            # guess2 = agent.predict(
+            #     human_input="Your first guess is not correct. While making your second guess, please stick to the format as ANSWER: your_answer_here"
+            # )
             guess2 = (
                 guess2.split(":")[1].strip().lower()
                 if len(guess2.split(":")) > 1
@@ -80,12 +102,12 @@ def get_outputs(
 
 
 def compile_results(
-    STATE_CLUES_NOTES_DICT,
-    output_dir,
-    conversation_buffer,
-    inst_template,
-    sys_template,
-    llm,
+    STATE_CLUES_NOTES_DICT: Dict[str, List[str]],
+    output_dir: str,
+    conversation_buffer: ConversationBufferWindowMemory,
+    inst_template: str,
+    sys_template: str,
+    llm: HuggingFacePipeline,
 ):
     for key, val in STATE_CLUES_NOTES_DICT.items():
         inst_template = inst_template.format(state=key)
@@ -131,10 +153,15 @@ def compile_results(
 def main():
     conversation_buffer = ConversationBufferWindowMemory(k=2, memory_key="chat_history")
     inst_template = PromptTemplate.from_template(INST_FALCON_TEMPLATE)
-    llm = HuggingFacePipeline(pipeline=generate_text("ichitaka/falcon-40b-instruct-8bit"))
+    llm = HuggingFacePipeline(pipeline=generate_text("tiiuae/falcon-7b-instruct"))
+    # llm = HuggingFaceHub(
+    #     huggingfacehub_api_token=os.environ["HF_TOKEN"],
+    #     repo_id="tiiuae/falcon-7b-instruct",
+    #     model_kwargs={"temperature": 0.1, "max_new_tokens": 500},
+    # )
     compile_results(
         STATE_CLUES_NOTES_DICT=STATE_CLUES_NOTES_DICT,
-        output_dir="/home/t-sahuja/cultural_artifacts/results/opensource/falcon",
+        output_dir="/home/t-sahuja/cultural_artifacts/results/opensource/falcon_7b",
         conversation_buffer=conversation_buffer,
         inst_template=inst_template,
         sys_template=SYS_FALCON_TEMPLATE,
