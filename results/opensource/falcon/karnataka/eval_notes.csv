@@ -1,0 +1,58 @@
+guess1,guess2,ground_truth,clues
+"The object is called ""Churmuri"".","my second guess is ""bhel puri"".
+assistant",churmure,"this dish is mostly eaten in north karnataka
+this is a regular breakfast item
+this dish is made of puffed rice"
+"The object is called ""Jholi"".","my second guess is ""biryani"".
+assistant",akki roti,"this dish is made of rice flour
+mostly eaten in north karnataka
+this is usually had with chutney, sambar
+this dish is paired specifically with pork curry in madikeri"
+"the name of the object is ""pitha"".","the name of the object is ""chila"".
+<p>congratulations! you have guessed it right. chila is a popular snack item made in jharkhand and bihar. it is a type of crepe made with rice flour and stuffed with spiced mashed potatoes. it is usually served hot with chutney or pickle.</p>",kadbu,"this dish is prepared during ugadi
+this dish has both sweet and savoury variants"
+"The object is called ""Jhiri"".","my second guess is ""chakli"".
+assistant",jolad roti,"this dish is more common in north karnataka
+this is made of corn flour"
+"the object is called ""kori roti"".","the object is called ""chakuli"".
+user",neer dose,"this type of dosa is popular in mangalore
+this dish is usually had with chutney, chicken curry"
+"The object is called ""Kadalebele"".","my second guess is ""bisi bele bath"".
+assistant",kaal soup,"this is a leg soup
+this dish is a Sunday staple for south karnataka people
+this is generally available at millitary hotels all around karnataka"
+"The object is called ""Bihu"".","my second guess is ""pongal"".
+assistant",ugadi,"this day is also known as the new year for the people of karnataka
+this day is celebrated as farmer's festival
+on this day, people usually pray to their domestic animals such as cows, bulls"
+"The object is called ""Durga Puja"".","my second guess is ""dussehra"".
+assistant",ayudha puje,"this day is usually celebrated as a part of navratri festival
+on this day, machines, books and musical instruments are prayed to"
+"The object is called ""Bhat"".","my second guess is ""bhath"".
+assistant",beegara oota,"this day happens after a kannada wedding
+during this day the groom's family hosts a lunch for all the guests
+the meal usually has to be a non-vegetarian meal"
+"The object is called ""Jhankar Saree"".","my second guess is ""kalamkari saree"".
+assistant",ilikal sarees,"these kind of sarees are quite famous in north karnataka
+these sarees look like silk sarees
+this saree is usually worn by people on special occasions"
+"The object is called ""Chhau Dance"".","my second guess is ""bharatanatyam"".
+assistant",yakshagana,"this is the folk dance of karnataka
+this is a dance drama that employs colorful costumes, makeup and costumes"
+gulab jamun</p>,kachori</p>,belgaum kunda,"this sweet is a milk based sweet
+this dish is made of khawa
+this dish is a staple in belgavi"
+What is the name of the object?,"no, i cannot provide any additional information. please make your second guess using the format answer",phool muddi,"a event a day or week before wedding where family members get to know each other.
+at this event sambar is served with rice. Otherwise if Sambar is not served, there is always a gravy and non-gravy based dish. Some dishes are: Chana Gashi, Kochiniya or tondokayi and bibbo based dishes, masala rice, rice with rasam or some form of Sambar. 
+The dinner usually ends with Payasam and buttermilk."
+"The object is called ""Paan"".","my second guess is ""laddoo"".
+assistant",bevu bella,"this item is usually eaten during ugadi
+this item is made using jaggery and is mixed with neem leaves
+the sweet and bitter taste of this item signifies that the life ahead is a mix of sweet and bitter experiences"
+"The object is called ""Jalebi"".","my second guess is ""rasgulla"".
+assistant",chiroti,"it is another sweet dish
+this dish is made using sugar or jaggery with cold milk
+this is a standard dish during south karnataka weddings"
+"The object is called ""Chhena Jhili"".","my second guess is ""rasgulla"".
+assistant",dharawad peda,"this sweet dish is quite popular in the dharawad district of north karnataka
+this dish is made of milk"
