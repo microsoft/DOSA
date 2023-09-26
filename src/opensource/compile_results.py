@@ -1,24 +1,23 @@
-import time
-from timeout_decorator import timeout
-from typing import Dict, List
-from src.opensource.llama_frontend import chat_pipeline
-from src.opensource.llama_backend import generate_text
-import pandas as pd
 import os
-from langchain import HuggingFaceHub
-from langchain.prompts import PromptTemplate
+from typing import Dict, List
+
+import pandas as pd
 from dotenv import load_dotenv
-from langchain.memory import ConversationBufferWindowMemory
+from langchain import HuggingFaceHub
 from langchain.llms import HuggingFacePipeline
-from src.opensource.templates import (
-    SYS_FALCON_TEMPLATE,
-    INST_FALCON_TEMPLATE,
-    SYS_LLAMA_TEMPLATE,
-    INST_LLAMA_TEMPLATE,
-)
+from langchain.memory import ConversationBufferWindowMemory
+from langchain.prompts import PromptTemplate
+from timeout_decorator import timeout
+
 from const import STATE_CLUES_NOTES_DICT
+from src.opensource.llama_backend import generate_text
+from src.opensource.llama_frontend import chat_pipeline
+from src.opensource.templates import (INST_FALCON_TEMPLATE,
+                                      INST_LLAMA_TEMPLATE, SYS_FALCON_TEMPLATE,
+                                      SYS_LLAMA_TEMPLATE)
 
 load_dotenv()
+
 
 # @timeout(60)  # Set a timeout of 60 seconds (adjust as needed)
 def predict_guess(agent, inst_template):
@@ -76,10 +75,14 @@ def get_outputs(
             conversation_buffer.clear()
             continue
         else:
-            guess2 = predict_guess(
-                agent,
-                inst_template="Your first guess is not correct. While making your second guess, please stick to the format as ANSWER: your_answer_here",
-            )
+            try:
+                guess2 = predict_guess(
+                    agent,
+                    inst_template="Your first guess is not correct. While making your second guess, please stick to the format as ANSWER: your_answer_here",
+                )
+            except TimeoutError:
+                print(f"Timeout error for this, skipping")
+                continue
             # guess2 = agent.predict(
             #     human_input="Your first guess is not correct. While making your second guess, please stick to the format as ANSWER: your_answer_here"
             # )
@@ -153,15 +156,15 @@ def compile_results(
 def main():
     conversation_buffer = ConversationBufferWindowMemory(k=2, memory_key="chat_history")
     inst_template = PromptTemplate.from_template(INST_FALCON_TEMPLATE)
-    llm = HuggingFacePipeline(pipeline=generate_text("tiiuae/falcon-7b-instruct"))
-    # llm = HuggingFaceHub(
-    #     huggingfacehub_api_token=os.environ["HF_TOKEN"],
-    #     repo_id="tiiuae/falcon-7b-instruct",
-    #     model_kwargs={"temperature": 0.1, "max_new_tokens": 500},
-    # )
+    # llm = HuggingFacePipeline(pipeline=generate_text("tiiuae/falcon-7b-instruct"))
+    llm = HuggingFaceHub(
+        huggingfacehub_api_token=os.environ["HF_TOKEN"],
+        repo_id="tiiuae/falcon-7b-instruct",
+        model_kwargs={"temperature": 0.1, "max_new_tokens": 500},
+    )
     compile_results(
         STATE_CLUES_NOTES_DICT=STATE_CLUES_NOTES_DICT,
-        output_dir="/home/t-sahuja/cultural_artifacts/results/opensource/falcon_7b",
+        output_dir="/home/t-sahuja/cultural_artifacts/results/opensource/falcon_7b_api",
         conversation_buffer=conversation_buffer,
         inst_template=inst_template,
         sys_template=SYS_FALCON_TEMPLATE,

@@ -1,0 +1,31 @@
+guess1,guess2,ground_truth,clues
+"The object is a <b>Bamboo Hat</b>. It is a headgear usually worn by farmers, fishermen, and tea garden workers in the state of Jharkhand. It is made of bamboo straws and the ones that are souvenirs sometimes have designs made of velvet clothes.","The object is a <b>Bamboo Hat</b>. It is a headgear usually worn by farmers, fishermen, and tea garden workers in the state of Jharkhand. It is made of bamboo straws and the ones that are souvenirs sometimes have designs made of velvet clothes.
+User",jappi,"A headgear usually worn by farmers, fishermen, tea garden workers.
+These days it has been commodified for gifting these days.
+It is made of bamboo straws and the ones that are souvenirs sometimes has designs made velvet clothes."
+"The object is a bell.
+User","your first guess is not correct. while making your second guess, please stick to the format as answer",xorai/sarai,"An object put in front of God whenever there is an occasion like wedding, birthday, death.
+It is made of metal usually Copper.
+It can sometimes be used to give paan to guests.
+On wedding the bride carries it with herself and offers paan from it to the guests who come to meet her."
+"The object you are referring to is a ""Kheer"" which is a sweet dish made from milk and rice. It is a popular dish in the Xorai region of India.","The object you are referring to is a ""Kheer"" which is a sweet dish made from milk and rice. It is a popular dish in the Xorai region of India.
+User",tamul paan,"This is a food that is sometimes offered to guests on Xorai.
+It is usually eaten after meals as mouth freshner.
+While invitating people for wedding this is given on a Xorai."
+"The object you are referring to is a flower that is worn on the head during the Bihu festival in Jharkhand. The flower is called ""Bhuti"".","The object you are referring to is a flower that is worn on the head during the Bihu festival in Jharkhand. The flower is called ""Bhuti"".
+User",kopou phool,A seasonal flower worn on the head during Bihu.
+"The object is a traditional garment called a ""dhoti"" which is used to wipe oneself. The garment is white and red in colour and is usually made from cotton or other fabrics. The patterns or designs on the garment are used to distinguish its use.","The object is a traditional garment called a ""dhoti"" which is used to wipe oneself. The garment is white and red in colour and is usually made from cotton or other fabrics. The patterns or designs on the garment are used to distinguish its use.
+User",gamusa,"A traditional garment which is usually used to wipe oneself.
+Traditional ones are white and red in colour.
+The patterns or designs on it are used to distinguish the use of this garment."
+"The name of the harvest festival which is also a dance form is Diwali.
+User","The name of the harvest festival which is also a dance form is Diwali.
+User",bihu,The name of the harvest festival which is also a dance form
+The object you are thinking of is a book that studies the life of a very important religious guru. It is not a book used for chanting.,"The object on the basis of the above clues from Jharkhand is a book that studies the life of a very important religious guru. It is not a book used for chanting.
+User",chitra-bhagavata,"The book that studies the life of a very important religious guru.
+It is not a book used for chanting"
+The material used for making traditional Mekhala Chador is made of silk.,"The material used for making traditional Mekhala Chador is made of silk.
+User",muga silk,The material used for making traditional Mekhala Chador is made.
+"The object you are referring to is a ""Mising"" blanket. The Mising tribe is a nomadic tribe that resides in the Jharkhand region of India. The blankets made by this tribe are known as ""Mising blankets"" and are made from the wool of sheep and goats. The blankets are woven by the women of the tribe and are used for warmth and comfort during the winter months. The blankets are also used as a symbol of the tribe's identity and culture.","The object you are referring to is a ""Mising"" blanket. The Mising tribe is a nomadic tribe that resides in the Jharkhand region of India. The blankets made by this tribe are known as ""Mising blankets"" and are made from the wool of sheep and goats. The blankets are woven by the women of the tribe and are used for warmth and comfort during the winter months. The blankets are also used as a symbol of the tribe's identity and culture.
+User",mirijim,"The name for hand woven fluffy blankets.
+Made by the mising tribe."
