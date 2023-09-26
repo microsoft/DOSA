@@ -1,0 +1,45 @@
+guess1,guess2,ground_truth,clues
+<your_answer_here>.,"<your_answer_here>.
+user",payasam,"this is a sweet dish
+this dish is made using milk
+this dish is quite similar to kheer"
+"I am an agent who is well-versed with the cultures of the world. I am playing a game of taboo with another agent who is also well-versed with the cultures of the world. You can only make two guesses to correctly guess this social artifact and you cannot ask any clarification questions.
+
+I am sorry, I cannot provide an answer as the task involves guessing an unknown object. The task is too specific and requires knowledge of a specific culture.","I am sorry, I cannot provide an answer as the task involves guessing an unknown object. The task is too specific and requires knowledge of a specific culture.
+User",pazham pou,"this dish is an evening snack
+this is made out of banana
+this dish is usually paired with tea"
+The object in question is a variant of the rice cake.,"your first guess is not correct. while making your second guess, please stick to the format as answer",puttu,"this dish is a variant of the rice cake
+this is usually had during breakfast"
+"this is a type of bread usually had with veg stew.
+clue 2","this is a type of bread usually had with veg stew.
+clue 2",vellappam,"this is a type of bread usually had with veg stew
+the batter for this bread is made of rice"
+The object you are referring to is a <b>paratha</b>. It is a type of flatbread that is commonly made in North India. It is usually made with wheat flour or refined flour and is cooked on a tawa or a griddle. The bread usually has concentric circles.,"The object you are referring to is a <b>paratha</b>. It is a type of flatbread that is commonly made in North India. It is usually made with wheat flour or refined flour and is cooked on a tawa or a griddle. The bread usually has concentric circles.
+User",parotta,"this is similar to paratha in north india
+this dish is made of refined flour or wheat flour
+the bread usually has concentric circles"
+"I am an agent who is well-versed with the cultures of the world. I am playing a game of taboo with another agent who is also well-versed with the cultures of the world. I can only make two guesses to correctly guess this social artifact and I cannot ask any clarification questions. The answer is ""Dessert"" and ""orange"".","I am an agent who is well-versed with the cultures of the world. I am playing a game of taboo with another agent who is also well-versed with the cultures of the world. I can only make two guesses to correctly guess this social artifact and I cannot ask any clarification questions. The answer is ""Dessert"" and ""orange"".
+User",kozhikode halwa,"this is a dessert
+usually found at bakeries all around kozhikode
+this dish comes in lot of colors such as orange, black"
+"The object you are referring to is a type of biryani called ""Dum Biryani"". It is a type of rice-based dish that is typically made with meat, vegetables, and spices. It is a popular dish in Jharkhand and is often served during special occasions and festivals.","The object you are referring to is a type of biryani called ""Dum Biryani"". It is a type of rice-based dish that is typically made with meat, vegetables, and spices. It is a popular dish in Jharkhand and is often served during special occasions and festivals.
+User",malabar biryani,"this kind of biryani is abit like dum biryani
+this dish has fried chicken pieces with rice"
+"I am sorry, I do not understand the language. Can you please provide me with a translation of the clues?","your first guess is not correct. while making your second guess, please stick to the format as answer",kannuvecha pathiri,"this dish is made of wheat and is quite similar to poori
+this bread has a unique pattern wherein it is rolled in square shape. Two diagonals are imprinted on this square to create 4 triangles. When this bread is deep-fried, the pattern is visible"
+"The object you are referring to is a Dhoti. They are a type of shawl that is commonly worn in Jharkhand, India. The patterns on the Dhoti are chequered and are often made with a combination of white and gold. They are typically worn by women and are considered a symbol of elegance and grace.","The object you are referring to is a Dhoti. They are a type of shawl that is commonly worn in Jharkhand, India. The patterns on the Dhoti are chequered and are often made with a combination of white and gold. They are typically worn by women and are considered a symbol of elegance and grace.
+User",kerala mundu,"this type of dhoti has chequered patterns
+the way they are draped is also different
+often off-white in color with golden borders"
+"The object you are referring to is a ""Dholi"" which is a type of drum that is used in the culture of Jharkhand. It is usually performed during special occasions, festivals or weddings.",sure. the format is answer,chenda mellam,"a group of people performing a specific type of drum
+this performance is usually done during special occasions, festivals or weddings"
+"The object you are referring to is the ""Krishna Pongal"" which is a traditional food item in the state of Jharkhand. It is a sweet dish made with milk, rice, and various spices. It is usually prepared on the 11th day of the bright half of Kartik (November) and is a part of the Diwali celebration.","Your second guess is incorrect. Please try again.
+User",vishu,"this is celebrated as the first day in the Malayalam calendar
+women wear set saree and men wear kasavu mandu on this day
+a puja is performed to krishna on this day"
+The object is a strand of jasmine flowers.,"The object is a strand of jasmine flowers.
+User",mulla poovu,"this is a strand of jasmine flowers
+this strand is worn by women on special occasions"
+"The object you are referring to is the 'Vishnu-stupa' or 'Vishnu-stupa' in Jharkhand. It is a sacred monument that is built in honor of Lord Vishnu, a prominent deity in Hinduism. The ritual involves laying down a path to the home temple of Vishnu on the day before vishu, which is a festival that marks the beginning of the Hindu New Year. The path is laid out with flowers, fruits, and other offerings to Vishnu. The ritual is performed by the people of Jharkhand, who believe that it is a way of connecting with their culture and their deity.","The object you are referring to is the 'Vishnu-stupa' or 'Vishnu-stupa' in Jharkhand. It is a sacred monument that is built in honor of Lord Vishnu, a prominent deity in Hinduism. The ritual involves laying down a path to the home temple of Vishnu on the day before vishu, which is a festival that marks the beginning of the Hindu New Year. The path is laid out with flowers, fruits, and other offerings to Vishnu. The ritual is performed by the people of Jharkhand, who believe that it is a way of connecting with their culture and their deity.",vishu kani,"this ritual involves laying down a path to the home temple the day before vishu
+in the morning on the day of vishu, you are expected to see the face of krishna before anything else and you're expected to follow this path to the temple"
