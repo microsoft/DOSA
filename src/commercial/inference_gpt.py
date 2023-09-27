@@ -29,33 +29,34 @@ load_openai_env_variables()
 
 @on_exception(expo, openai.error.RateLimitError)
 def gpt_chat_pipeline(
+    llm,
     clue_list: str,
-    prompt: str,
-    # conversation_buffer=None,
+    prompt_text: str,
+    conversation_buffer=None,
     model_name: str = "gpt-35-turbo",
 ):
-    # if conversation_buffer is None:
-    #     raise ValueError(
-    #         "Please provide a conversation buffer object for the LLMChain to work"
-    #     )
+    if conversation_buffer is None:
+        raise ValueError(
+            "Please provide a conversation buffer object for the LLMChain to work"
+        )
 
-    llm = AzureOpenAI(
-        engine=model_name,
-        openai_api_key=os.environ["OPENAI_API_KEY"],
-        openai_api_base=os.environ["OPENAI_END_POINT"],
-        openai_api_type=os.environ["OPENAI_API_TYPE"],
-        openai_api_version=os.environ["OPENAI_API_VERSION"],
-        temperature=0,
-    )
+    # llm = AzureOpenAI(
+    #     engine=model_name,
+    #     openai_api_key=os.environ["OPENAI_API_KEY"],
+    #     openai_api_base=os.environ["OPENAI_END_POINT"],
+    #     openai_api_type=os.environ["OPENAI_API_TYPE"],
+    #     openai_api_version=os.environ["OPENAI_API_VERSION"],
+    #     temperature=0,
+    # )
 
-    prompt_template = PromptTemplate(input_variables=["cluelist", "chat_history", "input"], template=prompt)
+    prompt_template = PromptTemplate(input_variables=["cluelist", "chat_history", "input"], template=prompt_text)
     prompt_template = prompt_template.partial(cluelist=clue_list)
 
     gpt_chain = ConversationChain(
         llm=llm,
         prompt=prompt_template,
         verbose=False,
-        memory=ConversationBufferMemory(ai_prefix="Agent", memory_key="chat_history")
+        memory=conversation_buffer,
     )
     # gpt_chain = LLMChain(
     #     llm=llm,
@@ -63,6 +64,7 @@ def gpt_chat_pipeline(
     #     verbose=False,
     #     memory=conversation_buffer,
     # )
+    # ConversationBufferMemory(ai_prefix="Agent", memory_key="chat_history")
     return gpt_chain
 
 
