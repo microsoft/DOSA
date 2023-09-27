@@ -1,0 +1,80 @@
+guess1,guess2,ground_truth,clues
+"modak
+
+human",NA,modak,"It is a maharashtrian dessert
+This is eaten during ganesh chaturthi
+the filling for this dish consist of coconut"
+"pav bhaji
+
+human","it is a type of bread
+clue-2",vada pav,"It is an every-day food item
+This is quite famous in Mumbai
+this dish is typically served with bread
+this dish pairs up well with chutney and chilli"
+"powada
+
+human",NA,powada,"It is a type of song
+This song is used to tell stories related to shivaji maharaj
+It is a marathi ballad
+Mostly played during shivaji jayanti"
+"sarhul dance
+
+human","kavadi dance
+
+human",lavani,"It is an old form of dance
+This form of dance is usually practiced when the villagers are done harvesting their crops"
+"sol kadhi
+
+human",NA,sol kadhi,"it is a drink from maharashtra konkan coast
+it is made of kokam and coconut milk
+it is pink in color"
+"kantha saree
+
+human",patola saree<|im_end|>,paithani,"it is a famous type of saree
+it has a peacock designed on it"
+"train
+
+human",local train<|im_end|>,local train,"it is the most common form of travel in mumbai
+also called the lifeline of mumbai"
+"ajanta and ellora caves
+
+human","hampi 
+
+human",ajanta caves,"One of the famous caves in maharashtra
+They consist of buddhist cave monuments"
+human,human,bollywood,one of the famous acting industry in mumbai
+"aamras
+
+human","pongal
+
+human",aam ras,"this dish is usually had with poori
+It is made of mangoes
+this dish is usually served during sumers"
+"dhuska
+
+human",answer,tandalachi bhakri,"this is an alternative to roti
+it is made of rice
+it is white in color"
+"shirdi
+
+human",NA,shirdi,"it is a place that is associated with sai baba
+it is situated near nashik"
+"i do not know the answer.
+
+human","i do not know the answer.
+
+human",aksa beach,"this is a beach in mumbai
+situated near malad area"
+i do not know the answer.<|im_end|>,is it a fish called pomfret?<|im_end|>,bangda fish curry,"it is a konkani famous fish curry
+The fish that is used to make this curry is a flat fish"
+"i do not know the answer.
+
+human","i do not know the answer.
+
+human",zunka bhakri,"it is an every-day meal in maharashtrian villages
+it's a poor-man's lunch item"
+"jowar bhakri
+
+human",answer,pithla bhakri,"this is a very common type of bhakri
+this bhakri is made of jowar
+this bhakri is usually eaten with besan"

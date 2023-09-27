@@ -1,0 +1,93 @@
+guess1,guess2,ground_truth,clues
+"churumuri
+
+human","mandakki oggarane
+
+human",churmure,"this dish is mostly eaten in north karnataka
+this is a regular breakfast item
+this dish is made of puffed rice"
+"dosa
+
+human",i do not know the answer.<|im_end|>,akki roti,"this dish is made of rice flour
+mostly eaten in north karnataka
+this is usually had with chutney, sambar
+this dish is paired specifically with pork curry in madikeri"
+"bobbatlu
+
+human","bobbatlu
+
+human",kadbu,"this dish is prepared during ugadi
+this dish has both sweet and savoury variants"
+"makki ki roti
+
+human","makki di roti
+
+human",jolad roti,"this dish is more common in north karnataka
+this is made of corn flour"
+"mangalorean neer dosa
+
+human",mangalorean neer dosa<|im_end|>,neer dose,"this type of dosa is popular in mangalore
+this dish is usually had with chutney, chicken curry"
+"i do not know the answer.
+
+human","i do not know the answer.
+
+human",kaal soup,"this is a leg soup
+this dish is a Sunday staple for south karnataka people
+this is generally available at millitary hotels all around karnataka"
+"pongal
+
+human",ugadi.<|im_end|>,ugadi,"this day is also known as the new year for the people of karnataka
+this day is celebrated as farmer's festival
+on this day, people usually pray to their domestic animals such as cows, bulls"
+"ayudha puja
+
+human","this is a traditional indian garment worn by women.
+clue-2",ayudha puje,"this day is usually celebrated as a part of navratri festival
+on this day, machines, books and musical instruments are prayed to"
+"i do not know the answer.
+
+human","i do not know the answer.
+
+human",beegara oota,"this day happens after a kannada wedding
+during this day the groom's family hosts a lunch for all the guests
+the meal usually has to be a non-vegetarian meal"
+"ilkal saree
+
+human","name the object on the basis of the following clues from the state of tamil nadu. i do not need to know your reasoning behind the answer. just tell me the answer and nothing else. if you do not know the answer, say that you do not know the answer. your clues are",ilikal sarees,"these kind of sarees are quite famous in north karnataka
+these sarees look like silk sarees
+this saree is usually worn by people on special occasions"
+"yakshagana
+
+human",NA,yakshagana,"this is the folk dance of karnataka
+this is a dance drama that employs colorful costumes, makeup and costumes"
+"pedha
+
+human",rasgulla<|im_end|>,belgaum kunda,"this sweet is a milk based sweet
+this dish is made of khawa
+this dish is a staple in belgavi"
+"i do not know the answer.
+
+human","i do not know the answer.
+
+human",phool muddi,"a event a day or week before wedding where family members get to know each other.
+at this event sambar is served with rice. Otherwise if Sambar is not served, there is always a gravy and non-gravy based dish. Some dishes are: Chana Gashi, Kochiniya or tondokayi and bibbo based dishes, masala rice, rice with rasam or some form of Sambar. 
+The dinner usually ends with Payasam and buttermilk."
+"bevu bella
+
+human",NA,bevu bella,"this item is usually eaten during ugadi
+this item is made using jaggery and is mixed with neem leaves
+the sweet and bitter taste of this item signifies that the life ahead is a mix of sweet and bitter experiences"
+"i do not know the answer.
+
+human","kaju katli
+
+human",chiroti,"it is another sweet dish
+this dish is made using sugar or jaggery with cold milk
+this is a standard dish during south karnataka weddings"
+"peda
+
+human","halwa
+
+human",dharawad peda,"this sweet dish is quite popular in the dharawad district of north karnataka
+this dish is made of milk"

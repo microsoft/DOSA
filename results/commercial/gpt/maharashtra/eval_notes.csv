@@ -1,0 +1,93 @@
+guess1,guess2,ground_truth,clues
+"malpua
+
+human","sitar
+
+human",puran poli,"this is a sweet dish
+This dish is usually made on festivals where you cannot make non-veg dishes"
+"i do not know the answer.
+
+human",i do not know the answer.<|im_end|>,kokam sharbat,"a drink usually had during ganesh chaturthi
+this drink is quite popular in konkan region"
+"aam panna
+
+human",NA,aam panna,"a cold drink made of mangoes
+this is usually had during  summers and during ganesh chaturthi"
+"modak
+
+human",NA,modak,a sweet dish made during ganesh chaturthi
+"modak
+
+human",shrikhand.<|im_end|>,pedhe,"it is a sweet dish quite popular in maharashtra
+is also used as an offering at temples and during marathi festivals"
+"i do not know the answer.
+
+human","name the object on the basis of the above clues from india. i do not need to know your reasoning behind the answer. just tell me the answer and nothing else. if you do not know the answer, say that you do not know the answer. format your answer in the form of answer",utna,"it is a powder that is applied on your skin before taking a bath during diwali
+it is made of flowers and multani mitti"
+"gudi padwa
+
+human",NA,gudi padwa,"this is also known as marathi new year
+a metallic vessel attached to a scarf and hung outside the house during this festival
+new things are usually bought during this festival"
+"makar sankranti
+
+human","uttarayan
+
+human",makar sakranti,"during this festival kites are usually flown
+during this day a sweet dish called tilgul and ladu are exchanged"
+"misal pav
+
+human",Understood. Please give me the next set of clues.<|im_end|>,tambda rassa,"this dish is usually found in kolhapur
+this dish is quite spicy"
+"rakhi
+
+human","saree
+
+human",bhaubeej,"this festival celebrates the bond between a brother and sister
+gifts are usually exchanged during this day"
+"upanayana
+
+human","upanayana
+
+human",munj,"this ritual is usually performed on 12-13 year old boys
+this ritual involves shaving of head
+janeu is given to boys during this ceremony"
+"chura dahi
+
+human","chura dahi
+
+human",pohe,"this is a breakfast item
+this is made of flattened rice"
+"gateway of india
+
+human",NA,gateway of india,"this monument is situated in mumbai
+this was built by britshers
+this is situated on the coast of mumbai"
+"naamkaran
+
+human","pattu pavadai
+
+human",barse,"this ritual is done post the birth of the baby
+this is basically a naming ceremony for the baby"
+"dhanbad's patauli festival
+
+human","chhath puja festival
+
+human",dohale jevan,this ritual involves a pregnant woman dressing up in green with a bow and arrow for a photo shoot
+"litti chokha
+
+human","you are welcome. let's move on to the next question. 
+
+agent",faral,"this dish is made exclusively during diwali
+this dish is also shared with relatives and neighbors
+this dish is mostly eaten in dinner during diwali"
+"varhadi cuisine
+
+human","i am sorry, i do not know the answer.
+
+human",varadi cuisine,"these type of cuisine is usually found in vidarbha region of maharashtra
+this is a spicier take on marathi food cuisine"
+"i do not know the answer.
+
+human",diwali sweets<|im_end|>,diwali farad,"this is a collection of food items made in every household during diwali
+this collection include items like chakali, kiranji, chivda, ladoo, anarse, kadboli"

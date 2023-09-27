@@ -4,32 +4,29 @@ from typing import Dict, List
 import pandas as pd
 from dotenv import load_dotenv
 from langchain import HuggingFaceHub
-from langchain.llms import HuggingFacePipeline
-from langchain.memory import ConversationBufferWindowMemory
+from langchain.memory import ConversationBufferMemory
 from langchain.prompts import PromptTemplate
+from langchain.llms import AzureOpenAI
 from timeout_decorator import timeout
 
 from const import STATE_CLUES_NOTES_DICT
-from src.opensource.llama_backend import generate_text
-from src.opensource.llama_frontend import chat_pipeline
-from src.opensource.templates import (
-    INST_FALCON_TEMPLATE,
-    INST_LLAMA_TEMPLATE,
-    SYS_FALCON_TEMPLATE,
-    SYS_LLAMA_TEMPLATE,
-)
+
+from src.commercial.inference_gpt import gpt_chat_pipeline
+from src.commercial.templates import SYS_GPT_TEMPLATE, INST_GPT_TEMPLATE
+import warnings
+
+warnings.filterwarnings("ignore")
 
 load_dotenv()
 
 
-# @timeout(60)  # Set a timeout of 60 seconds (adjust as needed)
 def predict_guess(agent, inst_template):
-    return agent.predict(human_input=inst_template)
+    return agent.predict(input=inst_template)
 
 
 def get_outputs(
     df: pd.DataFrame,
-    conversation_buffer: ConversationBufferWindowMemory,
+    conversation_buffer: ConversationBufferMemory,
     inst_template: str,
     llm,
     sys_template: str,
@@ -47,7 +44,7 @@ def get_outputs(
             output += f"CLUE-{j+1}: {clue.strip()}\n"
         fin_clues = output.strip()
 
-        agent = chat_pipeline(
+        agent = gpt_chat_pipeline(
             llm=llm,
             clue_list=fin_clues,
             prompt_text=sys_template,
@@ -110,10 +107,10 @@ def get_outputs(
 def compile_results(
     STATE_CLUES_NOTES_DICT: Dict[str, List[str]],
     output_dir: str,
-    conversation_buffer: ConversationBufferWindowMemory,
+    conversation_buffer: ConversationBufferMemory,
     inst_template: str,
     sys_template: str,
-    llm: HuggingFacePipeline,
+    llm: AzureOpenAI,
 ):
     for key, val in STATE_CLUES_NOTES_DICT.items():
         inst_template = inst_template.format(state=key)
@@ -157,23 +154,33 @@ def compile_results(
 
 
 def main():
-    conversation_buffer = ConversationBufferWindowMemory(k=2, memory_key="chat_history")
-    inst_template = PromptTemplate.from_template(INST_FALCON_TEMPLATE)
-    # llm = HuggingFacePipeline(pipeline=generate_text("tiiuae/falcon-7b-instruct"))
-    llm = HuggingFaceHub(
-        huggingfacehub_api_token=os.environ["HF_TOKEN"],
-        repo_id="tiiuae/falcon-7b-instruct",
-        model_kwargs={"temperature": 0.1, "max_new_tokens": 500},
+    conversation_buffer = ConversationBufferMemory(
+        ai_prefix="Agent", memory_key="chat_history"
     )
+    inst_template = PromptTemplate.from_template(INST_GPT_TEMPLATE)
+    model_name = "gpt-35-turbo"
+    llm = AzureOpenAI(
+        engine=model_name,
+        openai_api_key=os.environ["OPENAI_API_KEY"],
+        openai_api_base=os.environ["OPENAI_END_POINT"],
+        openai_api_type=os.environ["OPENAI_API_TYPE"],
+        openai_api_version=os.environ["OPENAI_API_VERSION"],
+        temperature=0,
+    )
+    # llm = HuggingFacePipeline(pipeline=generate_text("tiiuae/falcon-7b-instruct"))
+    # llm = HuggingFaceHub(
+    #     huggingfacehub_api_token=os.environ["HF_TOKEN"],
+    #     repo_id="tiiuae/falcon-7b-instruct",
+    #     model_kwargs={"temperature": 0.1, "max_new_tokens": 500},
+    # )
     compile_results(
         STATE_CLUES_NOTES_DICT=STATE_CLUES_NOTES_DICT,
-        output_dir="/home/t-sahuja/cultural_artifacts/results/opensource/falcon_7b_api",
+        output_dir="/home/t-sahuja/cultural_artifacts/results/commercial/gpt",
         conversation_buffer=conversation_buffer,
         inst_template=inst_template,
-        sys_template=SYS_FALCON_TEMPLATE,
+        sys_template=SYS_GPT_TEMPLATE,
         llm=llm,
     )
-
 
 if __name__ == "__main__":
     main()
