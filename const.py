@@ -3,7 +3,7 @@ from utils import generate_abs_path
 STATE_CLUES_NOTES_DICT = {
     "jharkhand": [
         generate_abs_path("clues/jharkhand/artifact_clues.csv"),
-        generate_abs_path("clues/jharkhand/notes.csv")
+        generate_abs_path("clues/jharkhand/notes.csv"),
     ],
     "assam": [
         generate_abs_path("clues/assam/artifacts_clues.csv"),
@@ -35,7 +35,18 @@ STATE_CLUES_NOTES_DICT = {
         generate_abs_path("clues/telangana/notes.csv"),
     ],
     "west_bengal": [generate_abs_path("clues/west_bengal/west_bengal_clues.csv")],
-    "kerala": [generate_abs_path("clues/kerala/kerala_clues.csv"), generate_abs_path("clues/kerala/kerala_notes.csv")],
+    "kerala": [
+        generate_abs_path("clues/kerala/kerala_clues.csv"),
+        generate_abs_path("clues/kerala/kerala_notes.csv"),
+    ],
     "chattisgarh": [generate_abs_path("clues/chhattisgarh/artifact_clues.csv")],
-    "delhi": [generate_abs_path("clues/delhi/delhi_clues.csv")]
+    "delhi": [generate_abs_path("clues/delhi/delhi_clues.csv")],
+    "bihar": [
+        generate_abs_path("clues/bihar/bihar_clues.csv"),
+        generate_abs_path("clues/bihar/bihar_notes.csv"),
+    ],
+    "andhra_pradesh":[
+        generate_abs_path("clues/andhra_pradesh/andhra_clues.csv"),
+        generate_abs_path("clues/andhra_pradesh/notes_clues.csv")
+    ]
 }

@@ -1,0 +1,84 @@
+guess1,guess2,ground_truth,clues
+"durga puja
+
+human","diwali
+
+human",navratri,"One of the most famous festival, which goes on for multiple days."
+"tussar silk saree
+
+human","banarasi saree
+
+human",patola,"An saree that is hand woven, expensive and only found in a particular place."
+"i do not know the answer.
+
+human",i do not know the answer.<|im_end|>,manek chowk,"It is a place/street in the biggest city of Gujarat.
+It is very famous for food."
+"ruskin bond
+
+human","jalebi
+
+human",tarak mehta,"A very famous comedy writer.
+One of his books has been made into a very famous comedy TV show.
+He used to write for Champak, Chitralekha and in Newspapers comic strips."
+"i am sorry, i do not know the answer.
+
+human","i am sorry, i do not know the answer.<|im_end|>",zari work,"A thread artwork mainly done on sarees to make it more flashy.
+Surat is famous for this type of work."
+"makar sankranti kite
+
+human",undhiyu<|im_end|>,rann of kutch,"White dessert near saurashtra where a winter-festival takes place.
+This festival was promoted by Amitabh Bacchan in an advertisement."
+"i do not know the answer.
+
+human","chaniya choli
+
+human",rabari hathkali,"These designs are typically made by a particular tribe from Kutch that sells milk.
+These designs are used in clothings worn during Garba.
+They are hand woven."
+"chilka roti
+
+human","poha
+
+human",khakra,"Breakfast item which is crispy, has different flavors."
+"saree
+
+human","sarangi
+
+human",bandhani,"An outfit mostly worn by mothers in everyday.
+It has a tie and die pattern.
+The outfit is named after the pattern itself."
+"tilak ceremony
+
+human",sagai ceremony<|im_end|>,goad dhana or gaud dhan,"Name of a function done before getting married.
+It denotes fixing of marriage.
+The function is named after the two things that is eaten during this function."
+"garba
+human",NA,garba,The famous dance done at Navratri in Gujarat or in any event.
+"undhiyu
+
+human",NA,undhiyu,"very famous mixed vegetable
+eaten during uttarayan"
+"sabarmati ashram
+
+human",dandi march museum<|im_end|>,gandhi ashram or sabarmati ashram,"A place on the banks of a very famous river in Ahemdabad
+This place is now a mueseum and Dandi March started from this place."
+"litti chokha
+
+human","paithani saree
+
+human",jalebi fafda,"Breakfast item that is a combination of farsan (savoury) and sweet.
+A sunday staple."
+human,human,matti kaam,This is a artwork from Kutch used to make toys from mud.
+"i do not know the answer.
+
+human",a famous temple in patan.<|im_end|>,raan ki vav,A famous well in Patan which is a world heritage site.
+"namaste
+
+human","khaman dhokla
+
+human",kem cho,A greeting phrase that is most commonly used and is known to most non-Gujaratis
+"i do not know the answer.
+
+human",i am confident that the answer is paratha.<|im_end|>,fafda gathiya,"This is a fried breakfast item.
+It is commonly consumed with Tea.
+Eaten every Sunday morning and Gujarati's cannot skip it."

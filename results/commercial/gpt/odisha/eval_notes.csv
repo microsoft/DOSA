@@ -1,0 +1,152 @@
+guess1,guess2,ground_truth,clues
+"mangalsutra
+
+human","kara
+
+human",hatha gondi,The ceremony done in wedding instead of the usual pheras
+"mundari crown
+
+human","oddiyanam
+
+human",mukut,The crowns worn by the bride and groom
+"nachni
+
+human","yakshagana
+
+human",jatra,A theater art form used to recite Stories from varying topics
+"dhol
+
+human","okay. 
+
+answer",khanjoni,A percussion instrument mostly used in Pala.
+"dhol
+
+human","pongal
+
+human",ginna/ginni,A brass metal item played in Pala
+"sarhul
+
+human","chhath puja. 
+
+human",rajjo,"It is a 2-3 days of festival to celebrate womanhood and primarily unmarried girls are revered.
+Swings are hung on the trees and is a sign of freedom.
+Mostly the younger women take part in it."
+"amadubi
+
+human","lohri
+
+human",prathamashtmi,"The rite to pray for the well-being of the elder son of the family
+A special dish is made of leaves of Turmeric plant."
+"sarhul
+
+human","gudi padwa
+
+human",chada khai,The celebration done after one month of not consuming any non-vegetarian food
+"i do not know the answer.
+
+human","i do not know the answer.
+
+human",boito purnima,The festival to celebrate the day when traditionally people would set sail for commerce to places like Bali.
+"sindoor
+
+human","saree
+
+human",savitri,A festival that is celebrated by the women for the long life of the husband.
+"namkaran ceremony
+
+human","namkaran ceremony
+
+human",ekoisiya,"A festival celebrated at the age of 21 days for the newborn.
+Usually a Satya Narayan Puja is done.
+The name of the child is whispered to the child.
+'Kheeri' is a sweet dish that is made."
+"pua
+
+human","ladoo
+
+human",kanika,Sweet rice
+"pitha
+
+human","kozhukattai
+
+human",monda pitha,Steamed dumplings  with sweet filling
+"pua
+
+human","rasgulla
+
+human",kakra,A swwet stuffed with coconut and dry fruits
+"malpua
+
+human","ladoo
+
+human",poda pitha,A desset made during rajjo and Rath Yatra
+human,human,morujo,A rangoli made with different colors that are organically sourced
+"i do not know the answer.
+
+human","dhol
+
+human",malo bhai,The group of people who are called at the death of a person to assist the family with the death rituals
+"handia
+
+human","a traditional headgear worn by men in the state of jammu and kashmir.
+
+human",handiya,An alcoholic drink mostly in Mundas and Santhali community
+human,human,bali jatra,The name of the famous jatra that happens near Mahanadi River in Cuttack.
+"karwa chauth
+
+human",pongal<|im_end|>,mannosa,"The festival celebrates the first harvest of rice
+Married women worship Goddess Lakshmi.
+It is celebrated every Thursday for 1 month"
+"sarhul
+
+human","a brother and sister festival.
+clue-2",khudurukuni,"A brother and sister festival.
+Vegetarian food is consumed."
+"paitkar painting
+
+human",paitkar painting<|im_end|>,pattachitra,An art form to tell an entire story on a cloth
+"konark sun temple
+
+human",answer,konark temple,"The most famous sun temple.
+Currently a world heritage site"
+"lingaraj temple
+
+human","i do not know the answer.
+
+human",lingraj templ,The most famous Shiv temple in Bhubhneshwar
+"bodh gaya temple
+
+human","bodh gaya temple
+
+human",dholagiri temple,The temple with a stupa like structure where Ashoka is believed to have accepted Buddhism.
+"malpua
+
+human","modak
+
+human",khasta gajja,A milk and flour based sweet that is rolled and folded multiple times
+"dassam falls
+
+human",name the social artifact on the basis of the following clues from the state of maharashtra. clue-1,chilika lake,The largest brackish water in Asia famous for its migratory birds
+"dhuska
+
+human","pongal
+
+human",pakhada,A staple rice and water or rice and curd dish had in summers
+"mahua
+
+human","mahua
+
+human",panna,The staple beverage in Odisha
+"dhuska
+
+human","pongal
+
+human",dalma,A mix of lentils and vegetables in lunch as a side dish
+"dhuska
+
+human",litti chokha<|im_end|>,santoda,A mix of all boiled vegetables with tadka
+"sarhul
+
+human","onam
+
+human",panna sankranti,A festival in which Bel panna is consumed and no non-veg is consumed
