@@ -1,0 +1,57 @@
+guess1,guess2,ground_truth,clues
+"jagannath temple
+
+human","ajanta caves
+
+human",tirupati balaji temple,The most famous Vishnu temple
+"ins kursura submarine museum
+
+human","a tourist beach in vishakapatnam.
+clue-2",rushi konda beach,"A tourist beach in Vishakapatnam.
+Navy air show takes place"
+"pua
+
+human",clue-1,kakinada kaja,"A very popular sweet that is layers rolled and dipped in sugar.
+The name of the dish has the name of the place in it."
+"prakasam barrage
+
+human",NA,prakasam barrage,It is a bridge like structure located in Vijaywada near Kanaka Durga temple.
+"kalamkari
+
+human",pochampally<|im_end|>,kalamkari paintings,"It is a textile block art print from Macchipatnam.
+Floral, Gods, animals are common themes of these prints."
+human,human,brass idol of nataraja in tirupati,A brass idol situated in Tirupati temple
+"kuchipudi
+
+human",NA,kuchipudi,The classical dance form of Andhra
+"kantha
+
+human","tussar silk saree and kantha. 
+
+   kantha is a type of embroidery that is popular in west bengal and bangladesh. it is done on cotton or silk and produces a zig-zag pattern. it is used to make sarees, dupattas, and other clothing items. 
+
+   tussar silk saree is a type of saree that is popular in jharkhand. it is made from tussar silk, which is a type of silk that is produced from the larvae of several species of silkworms.<|im_end|>",ikat puri weaving,It is a famous weave done on cotton that produces zig-zag patterns.
+"kondapalli toys
+
+human",NA,kondapalli toys,The toy making art of Andhra Pradesh that uses soft wood.
+"kantha embroidery
+
+human","chikankari saree
+
+human",kamal kadai embroidery,The embroidery done on traditional sarees to mostly create floral prints.
+"dandiya
+
+human",Understood. I will keep that in mind.<|im_end|>,kolannalu or kolattam,"It is a dance form that makes use of sticks as props.
+It is done for Krishashtami"
+"tussar silk saree
+
+human","taant saree
+
+human",mangalagiri handloom sarees,A light weight good quality cotton saree
+human,human,chandragiri fort,A fort near Tirupati
+"tussar silk saree
+
+human","kurta
+
+human",dharmavaram pattu,"The saress with golden border which are worn only during marriages.
+The saree has the name of the location where it is woven."

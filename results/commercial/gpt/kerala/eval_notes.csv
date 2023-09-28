@@ -1,0 +1,78 @@
+guess1,guess2,ground_truth,clues
+"chenna murki
+
+human","this is a sweet dish
+clue-2",payasam,"this is a sweet dish
+this dish is made using milk
+this dish is quite similar to kheer"
+"litti chokha
+
+human","mundu and neriyathu
+
+human",pazham pou,"this dish is an evening snack
+this is made out of banana
+this dish is usually paired with tea"
+"dhuska
+
+human","saree
+
+human",puttu,"this dish is a variant of the rice cake
+this is usually had during breakfast"
+"dhuska
+
+human","idli
+
+human",vellappam,"this is a type of bread usually had with veg stew
+the batter for this bread is made of rice"
+"litti chokha
+
+human","litti chokha
+
+human",parotta,"this is similar to paratha in north india
+this dish is made of refined flour or wheat flour
+the bread usually has concentric circles"
+"i do not know the answer.
+
+human","i do not know the answer.
+
+human",kozhikode halwa,"this is a dessert
+usually found at bakeries all around kozhikode
+this dish comes in lot of colors such as orange, black"
+"chicken biryani
+
+human","chicken biryani. 
+
+human",malabar biryani,"this kind of biryani is abit like dum biryani
+this dish has fried chicken pieces with rice"
+"litti
+
+human",kachori<|im_end|>,kannuvecha pathiri,"this dish is made of wheat and is quite similar to poori
+this bread has a unique pattern wherein it is rolled in square shape. Two diagonals are imprinted on this square to create 4 triangles. When this bread is deep-fried, the pattern is visible"
+"panchi dhoti
+
+human","it is worn by the sikh community
+
+human",kerala mundu,"this type of dhoti has chequered patterns
+the way they are draped is also different
+often off-white in color with golden borders"
+"dhol
+
+human","dhol
+
+human",chenda mellam,"a group of people performing a specific type of drum
+this performance is usually done during special occasions, festivals or weddings"
+"vishu
+
+human",NA,vishu,"this is celebrated as the first day in the Malayalam calendar
+women wear set saree and men wear kasavu mandu on this day
+a puja is performed to krishna on this day"
+"mangalsutra
+
+human",Thank you for letting me know. I apologize for the mistake. I will keep that in mind for future reference.<|im_end|>,mulla poovu,"this is a strand of jasmine flowers
+this strand is worn by women on special occasions"
+"vishukkani
+
+human","china star
+
+human",vishu kani,"this ritual involves laying down a path to the home temple the day before vishu
+in the morning on the day of vishu, you are expected to see the face of krishna before anything else and you're expected to follow this path to the temple"
