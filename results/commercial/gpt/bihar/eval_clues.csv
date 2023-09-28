@@ -1,0 +1,54 @@
+guess1,guess2,ground_truth,clues
+"mauryan empire
+
+human",name the object on the basis of the following clues from the united states. you can only make two guesses to correctly guess this social artifact and you cannot ask any clarification questions. social artifacts are objects that helps us connect and stay associated with the culture. these objects are known and have a significance to most people who consider themselves as a part of that culture and serve as way of identifying ourselves with the culture and the people in that culture. your clues are,gupta dynasty,"this dynasty ruled the indian subcontinent with its headquarters based in modern-day Patna
+this dynasty's rule was known as the golden age of ruling"
+"litti chokha
+
+human",NA,litti,"this food item is a dough made of whole wheat and is stuffed with pulses
+this item is also available in the neighbouring state of UP"
+"litchi
+
+human",NA,litchi,"this is quite popular fruit originating from Bihar
+this has one seed inside, the flesh is juicy with a red outer covering"
+"madhubani paintings
+
+human","pattachitra
+
+human",mithila painting,"this is an art form depicting different kind of religious history
+these paintings also depict village life of bihar"
+"mahabodhi temple
+
+human",NA,mahabodhi temple,"this temple is the place of worship for buddhists
+this temple is located in bodh gaya"
+"jayaprakash narayan
+
+human",NA,jayaprakash narayan,"this person is a freedom fighter hailing from bihar
+this person formed a political party by the name of janata party"
+"bodh gaya
+
+human",NA,bodh gaya,"this is the place where gautam buddha got his enlightenment
+this is also a district in bihar"
+"sarhul dance
+
+human","karagattam dance
+
+human",jhumar,"this kind of dance form is majorly performed during harvest season
+this dance form uses dhol, nagara, bansuri as their musical instruments
+this dance form mainly involves holding hands, swaying their bodies and some jumps"
+"dr. rajendra prasad
+
+human",NA,rajendra prasad,"this person is a famous politician from Bihar
+this person was the first president of india"
+"baidyanath dham temple
+
+human",answer,ganga bridge,this bridge is built on the holiest river for hindus
+"besan
+
+human",litti chokha<|im_end|>,sattu,this is flour made from powedered chana
+"mauryan empire
+
+human","cowboy hat
+
+human",maurya dynasty,"this dynasty was started by chandragupta maurya
+this dynasty's headquarters was in modern-day bihar"
