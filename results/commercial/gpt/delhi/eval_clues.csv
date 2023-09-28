@@ -1,0 +1,58 @@
+guess1,guess2,ground_truth,clues
+"litti chokha
+
+human","a popular indian sweet that is made from milk.
+   clue-2",momos,"A go to street food delicacy of Delhi NCR.
+It is made with white dough
+There are multiplte variations but is usually served with Chutney"
+"roadside dhabas
+
+human","dhabas
+
+human",murthal,"This place has multiple dhabas.
+It is a place where many people go for a drive."
+"connaught place
+
+human",NA,connaught place,"This is a very famous hangout place.
+There are multiple eating and shopping places here.
+It has a circular layout.
+It is close to Jantar Mantar"
+"i do not know the answer.
+
+human","i do not know
+
+human",gedi maarna,"It is an activity or verb common amongst the youth in Delhi NCR
+It is a common travelling activity done without aim by youth"
+"baidyanath dham
+
+human","golden temple
+
+human",jama masjid,This is a place of worship which is the largest in India for this faith.
+"bazaar
+
+human","chatta
+
+human",sarojini market,A market to buy cheap clothes or 1st copy.
+"hauz khas village
+
+human",i do not know the answer.<|im_end|>,hauz khaas,"It is a popular hangout place south delhi which has many expensive cafes.
+It is a chic place named after a reservoir.
+It also has two very reputated institute located there."
+"chandni chowk
+
+human","sorry, i do not know the answer.
+
+human",chandani chowk,"It is one of the most crowded market place in Old Delhi.
+A famous Bollywood actor is from this location.
+It is quite famous for paranthe and bridal wear shopping"
+"chilka
+
+human",ganne ka ras.<|im_end|>,kadhai waala doodh,"It is a popular winter drink served in the streets
+It is usually served in clay cups.
+Many a times it is seasoned with dry fruits."
+"litti chokha
+
+human","chole bhature
+
+human",street food culture,"A phrase to define the food culture of Delhi.
+Delhites miss this when they go outside."

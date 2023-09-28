@@ -1,0 +1,53 @@
+guess1,guess2,ground_truth,clues
+human,human,tirupati kalyanam,The most auspicious puja in Tirupari temple
+"pua
+
+human","rasgulla
+
+human",putarekulu,An expensive sweet dish that has wafer-thin layers.
+"tilgul
+
+human",bobbatlu<|im_end|>,bobbattu,"A easy fast to make sweet flatbread festival delicacy.
+Common in Karnataka and Andhra.
+Staple in Sankranti"
+"i do not know the answer.
+
+human",i think the object is pachadi.<|im_end|>,ugadi pachadi,"A staple pickle like food in Ugadi.
+It has 6 flavours."
+"tusu dolls
+
+human","chhau mask
+
+human",buttabomma,The dolls whose head moves while body is still.
+"gudi padwa
+
+human","pongal
+
+human",bomala koluvu,"In Sankranti, a step-wise arrangement of all toys that are then prayed to."
+"litti chokha
+
+human","modak
+
+human","booralu, gaaralu and parvanam",The most common prasadam in most festivals
+"ambil
+
+human","chingri malaikari
+
+human",mavidikaya royallu,The raw mango and prawn curry
+"dhuska
+
+human",tendu leaf<|im_end|>,tambulam,"Black channa, turmeric, paan all combined are referred to as this."
+"aam ka achar
+
+human","pongal
+
+human",avakaya pickle,The spicy mango pickle
+"karwa chauth
+<|im_end|>","i am sorry, i do not know the answer.<|im_end|>",varalakshmi vratham,"The fast done by females to Lakshmi to pray for long life of husband.
+The goddess idol is made at home and black chenna is the prasadam"
+"kulthi ki dal
+
+human","kollu rasam
+
+human",ulavacharu,The rasam made of horsegram
+human,human,kodi pandalu,The cock fight which takes place on the third day of Sankranti

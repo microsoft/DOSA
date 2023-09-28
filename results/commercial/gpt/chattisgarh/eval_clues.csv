@@ -1,0 +1,40 @@
+guess1,guess2,ground_truth,clues
+"saree
+
+human",ghagra choli<|im_end|>,lugda-polkha,The most common dress worn by married women in Chhatisgarh.
+"dhol
+
+
+
+human","dhol
+
+human",raut nacha,A dance primarily done by the Yadavs on Mandai and Deepavali
+"mahua flower
+
+human",NA,mahua,"A flower that is very holy to the people of Chhattisgarh.
+It is the most common ingredient for alcohol"
+"bastar dussehra
+
+human",answer,pandavi,"The art form in which performers recite the stories from Mahabharata, predominantly Bheem.
+It is dominant in Bastar"
+"karma dance
+
+human","dhol
+
+human",panthi nritya,It is a dance form primarily done by the Satnami Tribe while celebrating or praying to Bheem Baba
+"diwali
+
+human",chhattisgarhi new year.<|im_end|>,mandai mahotsav,"A festival where the most number of sweet shops open up in Chhattisgarh.
+This festival is now celebrated primarily in villages where the Sarpanch takes the flag (a representative of the Gods) around the village"
+"bhoramdeo temple
+
+human",NA,bhoramdeo temple,"The most famous temple in Chhattisgarh.
+This temple has the remains of Gond land.
+It is also called as Chhattisgarh's khajurao."
+human,human,baster dashehra,"The most famous festival in Chhattisgarh.
+A rath yatra takes place on this day.
+The rath is decorated with Mahua and Mango leaves"
+"litti chokha
+
+human",momos<|im_end|>,fara,"A steamed dish made of rice flour made from new rice.
+It is shaped like cyclindrical rolls."
