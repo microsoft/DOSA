@@ -1,0 +1,37 @@
+guess1,guess2,ground_truth,clues
+"The object you are thinking of is a ""Kheer"".","your first guess is not correct. while making your second guess, please stick to the format as answer",payasam,"this is a sweet dish
+this dish is made using milk
+this dish is quite similar to kheer"
+"I am sorry, I do not understand the language. Can you please provide me with the answer in English?","your first guess is not correct. while making your second guess, please stick to the format as answer",pazham pou,"this dish is an evening snack
+this is made out of banana
+this dish is usually paired with tea"
+The object you are referring to is a <b>Jharkhandi Thal</b>. It is a variant of the rice cake and is usually had during breakfast.,"The object you are referring to is a <b>Jharkhandi Thal</b>. It is a variant of the rice cake and is usually had during breakfast.
+User",puttu,"this dish is a variant of the rice cake
+this is usually had during breakfast"
+the object is a type of bread called 'bakarkhani' which is made of rice.,the object is a type of bread called 'bakarkhani' which is made of rice.,vellappam,"this is a type of bread usually had with veg stew
+the batter for this bread is made of rice"
+"The object is a ""Dhokla"".","The object is a ""Dhokla"".
+User",parotta,"this is similar to paratha in north india
+this dish is made of refined flour or wheat flour
+the bread usually has concentric circles"
+The object is a <b>Kozhikode Thalappakatti</b>.,"your first guess is not correct. while making your second guess, please stick to the format as answer",kozhikode halwa,"this is a dessert
+usually found at bakeries all around kozhikode
+this dish comes in lot of colors such as orange, black"
+"I am sorry, I do not have the capability to play games. Can you please provide me with the answer?","your first guess is not correct. while making your second guess, please stick to the format as answer",malabar biryani,"this kind of biryani is abit like dum biryani
+this dish has fried chicken pieces with rice"
+"The object is a type of bread called 'Khaman'. It is a type of poori, but is made with wheat instead of rice. It is a popular dish in Jharkhand and is often served with a side of spicy chutney.","The object is a type of bread called 'Khaman'. It is a type of poori, but is made with wheat instead of rice. It is a popular dish in Jharkhand and is often served with a side of spicy chutney.
+User",kannuvecha pathiri,"this dish is made of wheat and is quite similar to poori
+this bread has a unique pattern wherein it is rolled in square shape. Two diagonals are imprinted on this square to create 4 triangles. When this bread is deep-fried, the pattern is visible"
+The object is a Dhoti.,"your first guess is not correct. while making your second guess, please stick to the format as answer",kerala mundu,"this type of dhoti has chequered patterns
+the way they are draped is also different
+often off-white in color with golden borders"
+"I am sorry, I do not understand the question. Can you please provide more context or rephrase the question?","your first guess is not correct. while making your second guess, please stick to the format as answer",chenda mellam,"a group of people performing a specific type of drum
+this performance is usually done during special occasions, festivals or weddings"
+"I am sorry, I do not understand the language. Can you please provide me with the translation of the clues?","your first guess is not correct. while making your second guess, please stick to the format as answer",vishu,"this is celebrated as the first day in the Malayalam calendar
+women wear set saree and men wear kasavu mandu on this day
+a puja is performed to krishna on this day"
+The object is a jasmine flower.,your second guess is correct.,mulla poovu,"this is a strand of jasmine flowers
+this strand is worn by women on special occasions"
+The object you are referring to is the 'Vishnu Padak'. It is a ritual where the devotees lay a path to the home temple of Lord Vishnu on the day of vishu. The path is made of flowers and is believed to be a way of welcoming Vishnu to the home.,"The object you are referring to is the 'Vishnu Padak'. It is a ritual where the devotees lay a path to the home temple of Lord Vishnu on the day of vishu. The path is made of flowers and is believed to be a way of welcoming Vishnu to the home.
+User",vishu kani,"this ritual involves laying down a path to the home temple the day before vishu
+in the morning on the day of vishu, you are expected to see the face of krishna before anything else and you're expected to follow this path to the temple"

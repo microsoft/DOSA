@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from langchain import HuggingFaceHub
 from langchain.memory import ConversationBufferMemory
 from langchain.prompts import PromptTemplate
-from langchain.llms import AzureOpenAI
+from langchain.chat_models import AzureChatOpenAI
 from timeout_decorator import timeout
 
 from const import STATE_CLUES_NOTES_DICT
@@ -110,7 +110,7 @@ def compile_results(
     conversation_buffer: ConversationBufferMemory,
     inst_template: str,
     sys_template: str,
-    llm: AzureOpenAI,
+    llm: AzureChatOpenAI,
 ):
     for key, val in STATE_CLUES_NOTES_DICT.items():
         inst_template = inst_template.format(state=key)
@@ -158,13 +158,14 @@ def main():
         ai_prefix="Agent", memory_key="chat_history"
     )
     inst_template = PromptTemplate.from_template(INST_GPT_TEMPLATE)
-    model_name = "gpt-35-turbo"
-    llm = AzureOpenAI(
-        engine=model_name,
+    model_name = "gpt-4"
+    llm = AzureChatOpenAI(
+        model=model_name,
         openai_api_key=os.environ["OPENAI_API_KEY"],
         openai_api_base=os.environ["OPENAI_END_POINT"],
         openai_api_type=os.environ["OPENAI_API_TYPE"],
         openai_api_version=os.environ["OPENAI_API_VERSION"],
+        deployment_name=model_name,
         temperature=0,
     )
     # llm = HuggingFacePipeline(pipeline=generate_text("tiiuae/falcon-7b-instruct"))
@@ -175,7 +176,7 @@ def main():
     # )
     compile_results(
         STATE_CLUES_NOTES_DICT=STATE_CLUES_NOTES_DICT,
-        output_dir="/home/t-sahuja/cultural_artifacts/results/commercial/gpt",
+        output_dir="/home/t-sahuja/cultural_artifacts/results/commercial/gpt_4",
         conversation_buffer=conversation_buffer,
         inst_template=inst_template,
         sys_template=SYS_GPT_TEMPLATE,
