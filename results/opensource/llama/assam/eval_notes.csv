@@ -1,77 +1,79 @@
 guess1,guess2,ground_truth,clues
-sari,salwar kameez,phoolan gamusa,These are the gamusa that are used to give as a gift or felicitate
-mekhela chador.,sari,bihuaan,"The name of the gifting ceremony at Bihu.
+mekhela chador,sari,phoolan gamusa,These are the gamusa that are used to give as a gift or felicitate
+meji,sadein,bihuaan,"The name of the gifting ceremony at Bihu.
 Gamusa is a usual gift given during this ceremony."
-loom,sari,taat xal,The name of the device at homes that is used for weaving.
+loin loom,tapestry frame,taat xal,The name of the device at homes that is used for weaving.
 sari,salwar kameez,riha,This is a traditional garment worn over Mekhala Chador
-churma.,laddus.,kesa mothoi,"A sweet dish made of raw rice flour, sugar and ghee"
-rasgulla,litti,poka mithoi,A sweet usually made during Bihu
-bamboo,handloom,baith,The assamese name for Cane
-mati,kosa,bahn,The assamese name for Bamboo
-sari,salwar kameez,nooni pat,The silk that is made of silk worms feed on mulberry silk
-sari,salwar kameez,miri mekhla chador,This is a type of Mekhela Chador usually made of bright green or red.
-bhagavad gita,rudraksha,naam ghosa,The name of the holy text which talks about Krishna
-bhagavad gita,rudra kavach,kirtan goha,The name of the holy text written by Shankaradev.
-bhagwan birsa munda,tribal tattoos,shankara deva,The name of a guru who was the most popular spiritual guru
-navratri tent,sarhul tent,naam ghar,"A prayer house where there is no idol worship.
+pitha,momos,kesa mothoi,"A sweet dish made of raw rice flour, sugar and ghee"
+pitha,rumali,poka mithoi,A sweet usually made during Bihu
+bamboo,rice,baith,The assamese name for Cane
+khoroi,jonaki,bahn,The assamese name for Bamboo
+mekhela chador,sari,nooni pat,The silk that is made of silk worms feed on mulberry silk
+mekhela chador,gamusa,miri mekhla chador,This is a type of Mekhela Chador usually made of bright green or red.
+bhagavad gita,gita govinda,naam ghosa,The name of the holy text which talks about Krishna
+bhagavad gita,assamese bihu dance mask,kirtan goha,The name of the holy text written by Shankaradev.
+sri chaitanya mahaprabhu,buddha,shankara deva,The name of a guru who was the most popular spiritual guru
+mechuki.,sati,naam ghar,"A prayer house where there is no idol worship.
 Instead of an idol there is pyramid wrapped in gamusa. 
 Chants are done by Bhokots
 Mats made of bamboo are kept for Bhakts to sit."
-dhol.,thali.,taal,Large percussion instruments which is used during chants in Nagar Naam
-chhau dance.,saria.,nagara naam,A story telling tradition where a particular story is recited along with people dancing
-dhol.,sitar,khul,The percussion instrument which is played at Naam ghar
-baahar.,ghoonghat,bhokot,"The name for people who do chants in Naam ghar, at weddings and death
+drum,dhol,taal,Large percussion instruments which is used during chants in Nagar Naam
+bihu dance,sattriya dance,nagara naam,A story telling tradition where a particular story is recited along with people dancing
+dhol,flute,khul,The percussion instrument which is played at Naam ghar
+"guru
+
+please let me know if my answer is correct or not.",dhol,bhokot,"The name for people who do chants in Naam ghar, at weddings and death
 They may not neccesarily be Brahmin but are almost always elderly."
-poha,litti,maah prasad,"The prasad made of sprouts, fruits, coconut, ginger, salt"
-laddoo.,kheer,ghul,"The prasad given during Satya Narayan Katha.
+pitha,rice cake,maah prasad,"The prasad made of sprouts, fruits, coconut, ginger, salt"
+pitha,rasgulla,ghul,"The prasad given during Satya Narayan Katha.
 It is made of milk and banana"
-sthaniya vidya.,baha.,sattriya dance,A classical dance form from Assam
-rumal.,chunri,garu,The name of the pillow made of cotton where the cotton seeds are not removed.
-kahar (meaning 'best man' in assamese),chau mama (meaning 'uncle' in assamese),dora dhora,The name given to the best man in an Assamese wedding.
-kurta,dhoti,dhuti,The garment worn by the groom at the wedding
-turmeric,red thread,uruli,"The ritual done to wade of evil eye.
+sattriya dance,NA,sattriya dance,A classical dance form from Assam
+rumal,gamcha,garu,The name of the pillow made of cotton where the cotton seeds are not removed.
+kahar (best man),baha (groom's cousin),dora dhora,The name given to the best man in an Assamese wedding.
+mekhela chador.,sador.,dhuti,The garment worn by the groom at the wedding
+mehndi.,sari,uruli,"The ritual done to wade of evil eye.
 It is done at any auspicious event."
-karaila(banana leaf),gudari (first menstruation ceremony),xoru biya or xanti biya or tuluni biha,"The coming of age ceremony for girls.
+mekhela chador.,sari,xoru biya or xanti biya or tuluni biha,"The coming of age ceremony for girls.
 The is done after 7 days of the girl's periods.
 Prior to this ceremony girl eats non-spicy food like boiled rice on banana leaf. 
 In some places girls marry a banana tree"
-pongal,durga puja,magh bihu,"This is the harvest festival.
+bihu,rongali,magh bihu,"This is the harvest festival.
 Feasting is the primary form of celebration."
-holi,durga puja,bohog bihu,"This is the sowing festival.
+bohag bihu,rongali bihu,bohog bihu,"This is the sowing festival.
 Celebrated in the month of Spring.
 Dancing is the primary way of celebration"
-pongal,navratri,kati bihu,"This occurs in October when people pray for good harvest.
+bihu pandulipi,rongali bihu,kati bihu,"This occurs in October when people pray for good harvest.
 The most minimalist Bihu."
-litti.,chakli,pitha,"A dish made on special occassions like Magh Bighu.
+pitha,NA,pitha,"A dish made on special occassions like Magh Bighu.
 Sticky gelatinous rice is made into a powder and then made into a flatbread in a hot pan.
 Coconut or til filling."
-poi.,bell metal craft,posola,The inside of Banana stem.
-pickle.,salt.,dhekiya,"It is a salty fiddlehead fern, this is foraged and not cultivated."
-pitha,mekhela chawal,amroli tup,A food made of Amroli ant larvae that is had during Bihu
-lemon,tamarind,outenga,"A citrousy fruit commonly used to make fish curry.
+poi.,rice.,posola,The inside of Banana stem.
+pickled fiddlehead fern,smoked fiddlehead fern,dhekiya,"It is a salty fiddlehead fern, this is foraged and not cultivated."
+pitha,rice,amroli tup,A food made of Amroli ant larvae that is had during Bihu
+lemon,lime,outenga,"A citrousy fruit commonly used to make fish curry.
 The seed of this fruit is used for hair conditioning."
-handloom sari,bell metal craft,judima,The rice wine made by the Dimasa Tribe
-handloom sari,baha'i temple,xaaj and rohi,Rice wine made in Assam
-pitha,mehndi,goru bihu,"One day before Bihu, the cow is worshiped.
+zaroori.,johaa.,judima,The rice wine made by the Dimasa Tribe
+bihu liquor,ponni,xaaj and rohi,Rice wine made in Assam
+pitha,meji,goru bihu,"One day before Bihu, the cow is worshiped.
 A garland made of vegetables is put around the cow and the next morning people take a bath.
 A mix of haldi and Maah is put before taking a bath."
-khoa.,lassi,gura hando,"Roasted rice powder. 
+poori.,lassi,gura hando,"Roasted rice powder. 
 It is usually mixed with milk tea"
-sari,bindhi,juroon,The ceremony before wedding where the groom's mother and exchanges gifts with the bride in a Xorai
-sari,tribal jewelry,bagooroomba dance,the traditional dance of the Boro people
-sari.,turmeric,jhumur dance,The most common dance done by the tea cultivators
-sari,turban,dokhona,The traditional dress worn by Boro people
-dhoti,turban,tongali,Gamusa like cloth wrapped around the waist for men.
-birsa munda's cap.,tribal paintings,bhagabat path,The recitation of Kirtan Goha
-rongali bihu,baha festival,bhela ghar or bhela puji,The structure of Bamboo that is burnt on the morning of Magh Bihu.
-handloom sari,mithai (sweets),uruka,The night before Magh Bihu
-upanayana,rakhi,logunjaani,The festival that celebrates the coming of age for Brahmin boys.
-roti.,litti.,kholasapori,The quick fix and simple pitha made at home.
-puja thali,sari,doul utsav,A holi like festival in Assam.
-pitha,khichdi,machyasparcha,The day when non-veg is reintroduced into the family after a death
+mekhela chador,sari,juroon,The ceremony before wedding where the groom's mother and exchanges gifts with the bride in a Xorai
+sambhuani.,bihu dance,bagooroomba dance,the traditional dance of the Boro people
+saree,mekhela chador,jhumur dance,The most common dance done by the tea cultivators
+mekhela chador.,sari,dokhona,The traditional dress worn by Boro people
+dhoti,kurta,tongali,Gamusa like cloth wrapped around the waist for men.
+sari,gamcha,bhagabat path,The recitation of Kirtan Goha
+meji (bamboo flute),khol (bamboo mouth organ),bhela ghar or bhela puji,The structure of Bamboo that is burnt on the morning of Magh Bihu.
+meji (a traditional assamese lamp),rong (a traditional assamese drum),uruka,The night before Magh Bihu
+upanayana,bara-osha,logunjaani,The festival that celebrates the coming of age for Brahmin boys.
+pitha,momos,kholasapori,The quick fix and simple pitha made at home.
+bihu,rongali bihu,doul utsav,A holi like festival in Assam.
+puja thali,sadya,machyasparcha,The day when non-veg is reintroduced into the family after a death
 mekhela chador.,sari,soklong wedding,The wedding tradition of Ahoms
-rice container,turmeric leaves,hum bia,The wedding tradition where fire is lit and fluffed rice is put in it.
-ladoo.,khaini,maah korai,A popular snack and is offered to the fire God when Bhela Ghar is burnt.
-roti.,khichdi,bora chawal,The dish made of sticky rice consumed with milk
+meji,bihu,hum bia,The wedding tradition where fire is lit and fluffed rice is put in it.
+pitha,rice,maah korai,A popular snack and is offered to the fire God when Bhela Ghar is burnt.
+pitha,momos,bora chawal,The dish made of sticky rice consumed with milk
 holi,durga puja,rakh,A festival celebrating Krishna
-navratri,sarhul,ambuvasi mela,The mela held in June or july to celebrate the menstrual cycle of goddess Kamakhya.
+bihu,sankardev kaloti,ambuvasi mela,The mela held in June or july to celebrate the menstrual cycle of goddess Kamakhya.
