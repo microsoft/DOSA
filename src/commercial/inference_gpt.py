@@ -3,6 +3,7 @@ import openai
 from dotenv import load_dotenv
 from utils import load_openai_env_variables
 from langchain.llms import AzureOpenAI
+from langchain.chat_models import AzureChatOpenAI
 from src.commercial.templates import SYS_GPT_TEMPLATE, INST_GPT_TEMPLATE
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain, ConversationChain
@@ -40,14 +41,15 @@ def gpt_chat_pipeline(
             "Please provide a conversation buffer object for the LLMChain to work"
         )
 
-    # llm = AzureOpenAI(
-    #     engine=model_name,
-    #     openai_api_key=os.environ["OPENAI_API_KEY"],
-    #     openai_api_base=os.environ["OPENAI_END_POINT"],
-    #     openai_api_type=os.environ["OPENAI_API_TYPE"],
-    #     openai_api_version=os.environ["OPENAI_API_VERSION"],
-    #     temperature=0,
-    # )
+    llm = AzureChatOpenAI(
+        engine=model_name,
+        deployment_name=model_name,
+        openai_api_key=os.environ["OPENAI_API_KEY"],
+        openai_api_base=os.environ["OPENAI_END_POINT"],
+        openai_api_type=os.environ["OPENAI_API_TYPE"],
+        openai_api_version=os.environ["OPENAI_API_VERSION"],
+        temperature=0,
+    )
 
     prompt_template = PromptTemplate(input_variables=["cluelist", "chat_history", "input"], template=prompt_text)
     prompt_template = prompt_template.partial(cluelist=clue_list)
@@ -73,6 +75,16 @@ def gpt_chat_pipeline(
 
 if __name__ == "__main__":
     cluelist = 'CLUE-1: Quite a famous summer punjabi drink\nCLUE-2: It is made using curd'
+    model_name = "gpt-4"
+    llm = AzureChatOpenAI(
+        engine=model_name,
+        deployment_name=model_name,
+        openai_api_key=os.environ["OPENAI_API_KEY"],
+        openai_api_base=os.environ["OPENAI_END_POINT"],
+        openai_api_type=os.environ["OPENAI_API_TYPE"],
+        openai_api_version=os.environ["OPENAI_API_VERSION"],
+        temperature=0,
+    )
     agent = gpt_chat_pipeline(clue_list=cluelist, prompt=SYS_GPT_TEMPLATE)
     inst_prompt_template = PromptTemplate.from_template(INST_GPT_TEMPLATE)
     inst_input = inst_prompt_template.template.format(state="Punjab")

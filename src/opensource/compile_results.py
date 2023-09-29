@@ -71,7 +71,7 @@ def get_outputs(
                     "guess1": guess1,
                     "guess2": "NA",
                     "ground_truth": artifact,
-                    "clues": row["clues"].strip(),
+                    "clues": '\n'.join(clues),
                 },
                 ignore_index=True,
             )
@@ -99,7 +99,7 @@ def get_outputs(
                     "guess1": guess1,
                     "guess2": guess2,
                     "ground_truth": artifact,
-                    "clues": row["clues"].strip(),
+                    "clues": '\n'.join(clues),
                 },
                 ignore_index=True,
             )
@@ -159,11 +159,11 @@ def compile_results(
 def main():
     conversation_buffer = ConversationBufferWindowMemory(k=2, memory_key="chat_history")
     inst_template = PromptTemplate.from_template(INST_FALCON_TEMPLATE)
-    # llm = HuggingFacePipeline(pipeline=generate_text("tiiuae/falcon-7b-instruct"))
+    # llm = HuggingFacePipeline(pipeline=generate_text("meta-llama/Llama-2-13b-chat-hf"))
     llm = HuggingFaceHub(
         huggingfacehub_api_token=os.environ["HF_TOKEN"],
         repo_id="tiiuae/falcon-7b-instruct",
-        model_kwargs={"temperature": 0.1, "max_new_tokens": 500},
+        model_kwargs={"temperature": 0.1, "max_new_tokens": 500, "do_sample": False},
     )
     compile_results(
         STATE_CLUES_NOTES_DICT=STATE_CLUES_NOTES_DICT,
