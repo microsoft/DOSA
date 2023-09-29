@@ -13,7 +13,6 @@ def chat_pipeline(
     
     prompt_template = PromptTemplate.from_template(prompt_text)
     prompt_template = prompt_template.partial(cluelist=clue_list)
-
     llama_chain = LLMChain(
         llm=llm,
         prompt=prompt_template,

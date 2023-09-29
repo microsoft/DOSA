@@ -1,0 +1,28 @@
+guess1,guess2,ground_truth,clues
+"The object on the basis of the clues given is a saree.
+User","The most common dress worn by married women in Chhatisgarh is a saree.
+User",lugda-polkha,The most common dress worn by married women in Chhatisgarh.
+The object you are thinking of is the <strong>Dhoti</strong>. It is a traditional dance primarily done by the Yadavs on Mandai and Deepavali.,"The object you are thinking of is the <strong>Dhoti</strong>. It is a traditional dance primarily done by the Yadavs on Mandai and Deepavali.
+User",raut nacha,A dance primarily done by the Yadavs on Mandai and Deepavali
+"The object is a flower that is very holy to the people of Chhattisgarh.
+User","your first guess is not correct. while making your second guess, please stick to the format as answer",mahua,"A flower that is very holy to the people of Chhattisgarh.
+It is the most common ingredient for alcohol"
+"I do not need to know your reasoning behind the answer. Just tell me the answer and nothing else.
+
+I am sorry, I do not understand the question. Can you please rephrase it?","your first guess is not correct. while making your second guess, please stick to the format as answer",pandavi,"The art form in which performers recite the stories from Mahabharata, predominantly Bheem.
+It is dominant in Bastar"
+"The object you are thinking of is the ""Dhoti"". It is a dance form primarily done by the Satnami Tribe while celebrating or praying to Bheem Baba.","The object you are thinking of is the ""Dhoti"". It is a dance form primarily done by the Satnami Tribe while celebrating or praying to Bheem Baba.
+User",panthi nritya,It is a dance form primarily done by the Satnami Tribe while celebrating or praying to Bheem Baba
+The object you are thinking of is the 'Kho Kho' festival in Chhattisgarh. The festival is celebrated primarily in villages where the Sarpanch takes the flag (a representative of the Gods) around the village.,"The object you are thinking of is the 'Kho Kho' festival in Chhattisgarh. The festival is celebrated primarily in villages where the Sarpanch takes the flag (a representative of the Gods) around the village.
+User",mandai mahotsav,"A festival where the most number of sweet shops open up in Chhattisgarh.
+This festival is now celebrated primarily in villages where the Sarpanch takes the flag (a representative of the Gods) around the village"
+The object is the famous temple of Lord Ram in Chhattisgarh. The temple is located in the city of Raipur and is known as the Ram Janmabhoomi temple. It is also called as Chhattisgarh's khajurao.,"The object is the famous temple of Lord Ram in Chhattisgarh. The temple is located in the city of Raipur and is known as the Ram Janmabhoomi temple. It is also called as Chhattisgarh's khajurao.
+User",bhoramdeo temple,"The most famous temple in Chhattisgarh.
+This temple has the remains of Gond land.
+It is also called as Chhattisgarh's khajurao."
+The object is a rath.,"The object is a rath.
+User",baster dashehra,"The most famous festival in Chhattisgarh.
+A rath yatra takes place on this day.
+The rath is decorated with Mahua and Mango leaves"
+"I am sorry, I do not have the capability to answer this question as it requires knowledge of a specific culture.","your first guess is not correct. while making your second guess, please stick to the format as answer",fara,"A steamed dish made of rice flour made from new rice.
+It is shaped like cyclindrical rolls."
