@@ -1,0 +1,62 @@
+guess1,guess2,ground_truth,clues
+idli, payasam,sakkarai,"this is a variant of pongal
+this variant is sweet in taste"
+ven pongal,NA,ven pongal,"this is a variant of pongal that is salty in taste
+this variant is made using ghee"
+laddu, gulab jamun,kozukottai,"this is a sweet dish
+this dish is usually made during ganesh chaturthi
+this dish is available in both sweet and salty taste
+this dish is quite close to modak"
+idli, pongal,cheedai,"this dish is available as both sweet and salt
+this dish is usually made during gokul ashtami
+this dish is made using rice flour, jeera and ghee"
+pongal, ladoo,adhirasam,"this dish is similar to malpua
+this dish is made as prasad during festivals"
+paal payasam, thandai,jigarthanda,"this drink is quite popular in madurai
+this drink is usually available during summers
+this drink is made of condensed milk and almonds"
+pongal, idli,sundal,"this is a navratri special dish
+this dish is made of dal, oil and mustard
+this dish is usually given to guests who come to tamil families to see their golus.
+This is a prasadam in many temples especially Ganesh Temples."
+payasam,NA,payasam,"this dish Is made of milk, rice, vermicelli and jaggery
+this dish is equivalent to kheer in north
+this dish is almost always made on all the festivals"
+idli, dosa,murukku,"this is a popular snack in tamil nadu
+this snack is made of rice and urad dal"
+idli, vada,adai,"this dish is a variant of dosa
+this dish is quite protein rich"
+tomato chutney, sambar,thokku,"this is a famous chutney in tamil families
+this is mostly made of tomato"
+pongal, **vishu**,puthandu,"this is the first day of the year on a tamil calendar
+on this day, people usually have their meals on a banana leaf
+on this day, people go to temple and wear new clothes"
+**pongal kolam**, **bhogi mantai**,bhogi,"this is the first day of pongal festival
+on this day, people usually clean their house
+on this dayy, people give off or burn old things"
+pongal pot,NA,pongal,"this is the second day of pongal
+on this day, you actually prepare the food item pongal
+on this day a tiny portion of food is kept aside after the lunch"
+**mattu pongal**, **bommai pongal**,maattu pongal,"this is the third day of the pongal.
+This day celebrates bull, so bulls and cows are praid to."
+mattu pongal, kaanum pongal,kaanum pongal,"this is the fourth and the last day of pongal.
+People go out to visit places as a form of sight-seeing.
+during this day women pray to the sun god for  well-being of their  brothers"
+"the object is the sacred thread, also known as the poonal or yajnopavita. it is a sacred thread worn by hindu males, especially brahmins, as a sign of their initiation into the vedic religion. the thread is made of three strands of cotton or wool, and is worn over the left shoulder and under the right arm. it is usually changed on the day of the annual shraadh ceremony, which is held in the month of shravana (august-september)."," the object is the new year's cloth, also known as the pongal cloth. it is a new cloth that is worn by people in tamil nadu on the day of pongal, which is the first day of the tamil month of thai (january-february). the cloth is usually made of cotton or silk, and is decorated with traditional tamil designs. it is a symbol of new beginnings and prosperity.",avani avittam,"on this day, males from brahmin community usually change their poonal
+this day usually falls either in august or in september"
+**karva chauth**, **pongal**,karadaiyan nonbu,"during this day, women usually perform prayers to gowri for longevity and well-being of their husbands
+on this day, women draw kolam in front of their houses"
+pongal, payasam,karadi,A steamed desert which is fed to cows after praying to them and then is consumed as prasadam
+ayyanar, karuppu sami,aiyanar,"A border deity in villages that are believed to be protectors.
+They are mud based and traditionally have big eyes, large moustaches."
+bommai, vinayagar chaturthi idols,chettiyar bommai,Clay dolls with big paunch that represent a particular community
+**pongal dolls**, **mudiyettu**,thalaiyatti bommai,Clay dolls that have a wobbling or moving neck
+kolu dolls, golu dolls,thaunjauvr bommai,Clay dolls with round bottoms which allows the dolls to roll
+**sari**, **pongal**,chinnalam patti saree,The most common everyday cotton saree
+ikat saree, bomkai saree,sungudi cotton saree,Especial type of tie and dye cotton saree
+idli,  ,karuvaadu/uppa karuvaadu,Dried fish usually salty
+murukku pottu, pidi,jaadi,"The ceramic jar used to store things like pickles, sea salt, Karuvaadu"
+**pongal pot**, **hundi**,mann paanai,"Clay pots in which water can be stored.
+Traditionally on the day of Pongal food is cooked in this."
+rasam, sambar,kolzhambu,"A thickened broth in which vattal or puli is added
+It lentils is added to it, it becomes sambar"

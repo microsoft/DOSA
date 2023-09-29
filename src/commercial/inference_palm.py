@@ -15,6 +15,10 @@ palm.configure(api_key=os.getenv('PALM_API_TOKEN'))
 
 # @retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6))
 def palm_completion(sys_prompt, inst_prompt):
-    response = palm.chat(context=sys_prompt, temperature=0.1, messages=inst_prompt)
+    try:
+        response = palm.chat(context=sys_prompt, temperature=0.1, messages=inst_prompt)
+    except Exception as e:
+        print(e)
+        return "Answer: api failed"
     return response
 
