@@ -1,71 +1,33 @@
 guess1,guess2,ground_truth,clues
-onam,NA,onam,"this is one of the most famous festival in kerala
-this is celebrated by everyone irrespective of their religion"
-rug,batik,pookalam,"this is normally used as a decoration on floors during festivals
-people usually go for a variety of patterns like animals, flowers etc"
-padmanabhaswamy temple,NA,padmanabhaswamy temple,"this is a famous temple located in trivandrum
-this temple for having loads of gold treasure"
-sabarimala temple,thiruvabharanam,sabrimala temple,"this is a famous temple in kerala
-this temple used to only allow men to enter the temple
-the deity of this temple is ayappan
-people going to this temple usually wear black clothes"
-lehenga choli,saree,set saree,"this is an attire worn by women
-this attire is usually worn during special occasions or festivals
-this attire is found in multiple colors and has golden embriodery done over it
-it is mostly worn by girls when they enter their teen years"
-pookalam,thiruvathirakali,pooram,"this is a famous festival celebrated with grandeur in thrissur
-this festival involves a performance by elephants"
-ruskin bond,munshi premchand,mt vasudevan,"this person is an author, screenplay writer
-he also won the kerala sahitya academy award
-he is also the author of a popular book nirmalayam"
-boat race,pamba river,vallam kali,"this is a popular competition that involves boat racing
-this happens on the pamba river every year"
-saree,kathakali mask,vanchipattu,this is a popular song sung during the annual boat race that happens in kerala
-kalaripayattu,NA,kalaripayattu,"this is a famous martial art iin kerala
-this is one of the oldest surviving martial art in india"
-marigold,jasminum,kanikonna,"this is a flower mostly associated with the vishu festival
-this flower blooms like a a golden shower"
-ayurveda,NA,ayurveda,this is alternative medicine and massage technique that is practiced in kerala
-onam sadya,NA,sadya,"this spread of meal is usually eaten during onam
-this spread has multiple dishes and the number of dishes varies according to the festival being celebrated in kerala"
-kathakali,bharatanatyam,theyyam,"this is a famous dance form that is usually performed at temples in kerala
-the performer of this dance form wears bright red colors"
-toddy,NA,toddy,"this is a famous alcoholic drink in kerala
-this drink is made using coconut"
-bhagalpuri saree,kantha saree,kasavu saree,"this type of saree is a variant of set saree
-this saree is usually white in color"
-onam,NA,onam,"this is one of the most famous festival in kerala
-this is celebrated by everyone irrespective of their religion"
-rug,batik,pookalam,"this is normally used as a decoration on floors during festivals
-people usually go for a variety of patterns like animals, flowers etc"
-padmanabhaswamy temple,NA,padmanabhaswamy temple,"this is a famous temple located in trivandrum
-this temple for having loads of gold treasure"
-sabarimala temple,thiruvabharanam,sabrimala temple,"this is a famous temple in kerala
-this temple used to only allow men to enter the temple
-the deity of this temple is ayappan
-people going to this temple usually wear black clothes"
-lehenga choli,saree,set saree,"this is an attire worn by women
-this attire is usually worn during special occasions or festivals
-this attire is found in multiple colors and has golden embriodery done over it
-it is mostly worn by girls when they enter their teen years"
-pookalam.,thiruvathirakali.,pooram,"this is a famous festival celebrated with grandeur in thrissur
-this festival involves a performance by elephants"
-ruskin bond,munshi premchand,mt vasudevan,"this person is an author, screenplay writer
-he also won the kerala sahitya academy award
-he is also the author of a popular book nirmalayam"
-boat race,pamba river,vallam kali,"this is a popular competition that involves boat racing
-this happens on the pamba river every year"
-saree,kathakali mask,vanchipattu,this is a popular song sung during the annual boat race that happens in kerala
-kalaripayattu,NA,kalaripayattu,"this is a famous martial art iin kerala
-this is one of the oldest surviving martial art in india"
-marigold,jasminum,kanikonna,"this is a flower mostly associated with the vishu festival
-this flower blooms like a a golden shower"
-ayurveda,NA,ayurveda,this is alternative medicine and massage technique that is practiced in kerala
-onam sadya,NA,sadya,"this spread of meal is usually eaten during onam
-this spread has multiple dishes and the number of dishes varies according to the festival being celebrated in kerala"
-kathakali,bharatanatyam,theyyam,"this is a famous dance form that is usually performed at temples in kerala
-the performer of this dance form wears bright red colors"
-toddy,NA,toddy,"this is a famous alcoholic drink in kerala
-this drink is made using coconut"
-bhagalpuri silk saree,kantha stitch saree,kasavu saree,"this type of saree is a variant of set saree
-this saree is usually white in color"
+payasam,NA,payasam,"this is a sweet dish
+this dish is made using milk
+this dish is quite similar to kheer"
+putti.,puttu,pazham pou,"this dish is an evening snack
+this is made out of banana
+this dish is usually paired with tea"
+appam.,puttu,puttu,"this dish is a variant of the rice cake
+this is usually had during breakfast"
+appam,puttu,vellappam,"this is a type of bread usually had with veg stew
+the batter for this bread is made of rice"
+appam,puttu,parotta,"this is similar to paratha in north india
+this dish is made of refined flour or wheat flour
+the bread usually has concentric circles"
+halwa,kozhikodan halwa,kozhikode halwa,"this is a dessert
+usually found at bakeries all around kozhikode
+this dish comes in lot of colors such as orange, black"
+chicken biryani,chicken fry,malabar biryani,"this kind of biryani is abit like dum biryani
+this dish has fried chicken pieces with rice"
+appam,puttu,kannuvecha pathiri,"this dish is made of wheat and is quite similar to poori
+this bread has a unique pattern wherein it is rolled in square shape. Two diagonals are imprinted on this square to create 4 triangles. When this bread is deep-fried, the pattern is visible"
+mundu,kasavu,kerala mundu,"this type of dhoti has chequered patterns
+the way they are draped is also different
+often off-white in color with golden borders"
+thiruvathirakali,kummattikali,chenda mellam,"a group of people performing a specific type of drum
+this performance is usually done during special occasions, festivals or weddings"
+onam,vishu,vishu,"this is celebrated as the first day in the Malayalam calendar
+women wear set saree and men wear kasavu mandu on this day
+a puja is performed to krishna on this day"
+mundu,sari,mulla poovu,"this is a strand of jasmine flowers
+this strand is worn by women on special occasions"
+pookalam,kathaprasangam,vishu kani,"this ritual involves laying down a path to the home temple the day before vishu
+in the morning on the day of vishu, you are expected to see the face of krishna before anything else and you're expected to follow this path to the temple"

@@ -111,12 +111,12 @@ def compile_results(
     STATE_CLUES_NOTES_DICT: Dict[str, List[str]],
     output_dir: str,
     conversation_buffer: ConversationBufferWindowMemory,
-    inst_template: str,
+    inst_prompt: str,
     sys_template: str,
     llm: HuggingFacePipeline,
 ):
     for key, val in STATE_CLUES_NOTES_DICT.items():
-        inst_template = inst_template.format(state=key)
+        inst_template = inst_prompt.format(state=key)
         curr_path = os.path.join(output_dir, key)
         if not os.path.exists(curr_path):
             os.makedirs(curr_path)
@@ -159,17 +159,17 @@ def compile_results(
 def main():
     conversation_buffer = ConversationBufferWindowMemory(k=2, memory_key="chat_history")
     inst_template = PromptTemplate.from_template(INST_FALCON_TEMPLATE)
-    # llm = HuggingFacePipeline(pipeline=generate_text("meta-llama/Llama-2-13b-chat-hf"))
-    llm = HuggingFaceHub(
-        huggingfacehub_api_token=os.environ["HF_TOKEN"],
-        repo_id="tiiuae/falcon-7b-instruct",
-        model_kwargs={"temperature": 0.1, "max_new_tokens": 500, "do_sample": False},
-    )
+    llm = HuggingFacePipeline(pipeline=generate_text("tiiuae/falcon-7b-instruct"))
+    # llm = HuggingFaceHub(
+    #     huggingfacehub_api_token=os.environ["HF_TOKEN"],
+    #     repo_id="tiiuae/falcon-7b-instruct",
+    #     model_kwargs={"temperature": 0.1, "max_new_tokens": 500, "do_sample": False},
+    # )
     compile_results(
         STATE_CLUES_NOTES_DICT=STATE_CLUES_NOTES_DICT,
-        output_dir="/home/t-sahuja/cultural_artifacts/results/opensource/falcon_7b_api",
+        output_dir="/home/t-sahuja/cultural_artifacts/results/opensource/falcon_7b",
         conversation_buffer=conversation_buffer,
-        inst_template=inst_template,
+        inst_prompt=inst_template,
         sys_template=SYS_FALCON_TEMPLATE,
         llm=llm,
     )

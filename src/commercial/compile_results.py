@@ -68,7 +68,7 @@ def get_outputs(
                     "guess1": guess1,
                     "guess2": "NA",
                     "ground_truth": artifact,
-                    "clues": row["clues"].strip(),
+                    "clues": '\n'.join(clues),
                 },
                 ignore_index=True,
             )
@@ -96,7 +96,7 @@ def get_outputs(
                     "guess1": guess1,
                     "guess2": guess2,
                     "ground_truth": artifact,
-                    "clues": row["clues"].strip(),
+                    "clues": '\n'.join(clues),
                 },
                 ignore_index=True,
             )
@@ -108,33 +108,32 @@ def compile_results(
     STATE_CLUES_NOTES_DICT: Dict[str, List[str]],
     output_dir: str,
     conversation_buffer: ConversationBufferMemory,
-    inst_template: str,
-    sys_template: str,
+    inst_prompt: PromptTemplate,
+    sys_prompt: str,
     llm: AzureChatOpenAI,
 ):
-    for key, val in STATE_CLUES_NOTES_DICT.items():
-        inst_template = inst_template.format(state=key)
-        curr_path = os.path.join(output_dir, key)
+    for state_name, val in STATE_CLUES_NOTES_DICT.items():
+        inst_template = inst_prompt.format(state=state_name)
+        curr_path = os.path.join(output_dir, state_name)
         if not os.path.exists(curr_path):
             os.makedirs(curr_path)
-
         clue_path = val[0]
         notes_path = val[1] if len(val) > 1 else None
 
         #         print("Getting results for {key}ate")
-        print(f"getting results for {key} state")
+        print(f"getting results for {state_name} state")
         conversation_buffer.clear()
         df_clues = pd.read_csv(clue_path)
 
-        print(f"Running clues eval for {key} state")
+        print(f"Running clues eval for {state_name} state")
         clues_result_path = os.path.join(curr_path, "eval_clues.csv")
         if not os.path.exists(clues_result_path):
             df_clues_eval = get_outputs(
-                df_clues, conversation_buffer, inst_template, llm, sys_template
+                df_clues, conversation_buffer, inst_template, llm, sys_prompt
             )
             df_clues_eval.to_csv(clues_result_path, index=False)
         else:
-            print(f"Clue eval results already exist for {key} state")
+            print(f"Clue eval results already exist for {state_name} state")
 
         if notes_path:
             conversation_buffer.clear()
@@ -144,20 +143,23 @@ def compile_results(
             )
             notes_result_path = os.path.join(curr_path, "eval_notes.csv")
             if not os.path.exists(notes_result_path):
-                print(f"Running notes eval for {key} state")
+                print(f"Running notes eval for {state_name} state")
                 df_notes_eval = get_outputs(
-                    df_notes, conversation_buffer, inst_template, llm, sys_template
+                    df_notes, conversation_buffer, inst_template, llm, sys_prompt
                 )
                 df_notes_eval.to_csv(notes_result_path, index=False)
             else:
-                print(f"Notes eval results already exist for {key} state")
+                print(f"Notes eval results already exist for {state_name} state")
 
 
 def main():
     conversation_buffer = ConversationBufferMemory(
         ai_prefix="Agent", memory_key="chat_history"
     )
-    inst_template = PromptTemplate.from_template(INST_GPT_TEMPLATE)
+    inst_template = PromptTemplate(
+        input_variables=["state"], template=INST_GPT_TEMPLATE
+    )
+
     model_name = "gpt-4"
     llm = AzureChatOpenAI(
         model=model_name,
@@ -178,10 +180,11 @@ def main():
         STATE_CLUES_NOTES_DICT=STATE_CLUES_NOTES_DICT,
         output_dir="/home/t-sahuja/cultural_artifacts/results/commercial/gpt_4",
         conversation_buffer=conversation_buffer,
-        inst_template=inst_template,
-        sys_template=SYS_GPT_TEMPLATE,
+        inst_prompt=inst_template,
+        sys_prompt=SYS_GPT_TEMPLATE,
         llm=llm,
     )
+
 
 if __name__ == "__main__":
     main()
