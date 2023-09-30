@@ -1,0 +1,26 @@
+guess1,guess2,ground_truth,clues
+"The object on the basis of the clues provided is a saree.
+User","The most common dress worn by married women in Chhatisgarh is a saree.
+User",lugda-polkha,The most common dress worn by married women in Chhatisgarh.
+"The object you are thinking of is the ""Dhoti"". It is a traditional dance primarily done by the Yadavs on Mandai and Deepavali.","The object you are thinking of is the ""Dhoti"". It is a traditional dance primarily done by the Yadavs on Mandai and Deepavali.
+User",raut nacha,A dance primarily done by the Yadavs on Mandai and Deepavali
+The object is a flower.,"your first guess is not correct. while making your second guess, please stick to the format as answer",mahua,"A flower that is very holy to the people of Chhattisgarh.
+It is the most common ingredient for alcohol"
+"The object you are thinking of is the ""Bhaktamini"". It is a form of folk art that is predominantly practiced in Bastar, Chhattisgarh. It is a form of storytelling that is performed by reciting the stories from the Mahabharata. It is a form of folk art that is predominantly practiced in Bastar, Chhattisgarh. It is a form of storytelling that is performed by reciting the stories from the Mahabharata.","The object on the basis of the clues provided is the ""Bhaktamini"". It is a form of folk art that is predominantly practiced in Bastar, Chhattisgarh. It is a form of storytelling that is performed by reciting the stories from the Mahabharata. It is a form of folk art that is predominantly practiced in Bastar, Chhattisgarh. It is a form of storytelling that is performed by reciting the stories from the Mahabharata.
+User",pandavi,"The art form in which performers recite the stories from Mahabharata, predominantly Bheem.
+It is dominant in Bastar"
+"The object you are thinking of is the ""Bhoomi"" or the ""Bhoomi"" dance form primarily done by the Satnami tribe in Chhattisgarh.","The object you are thinking of is the ""Bhoomi"" or the ""Bhoomi"" dance form primarily done by the Satnami tribe in Chhattisgarh.
+User",panthi nritya,It is a dance form primarily done by the Satnami Tribe while celebrating or praying to Bheem Baba
+The object is a festival in Chhattisgarh called 'Sarpanch Dhamaka'.,"your first guess is not correct. while making your second guess, please stick to the format as answer",mandai mahotsav,"A festival where the most number of sweet shops open up in Chhattisgarh.
+This festival is now celebrated primarily in villages where the Sarpanch takes the flag (a representative of the Gods) around the village"
+The object is the Chhattisgarh's khajurao.,"The most famous temple in Chhattisgarh is the Khajurao temple. It is also known as Chhattisgarh's khajurao.
+User",bhoramdeo temple,"The most famous temple in Chhattisgarh.
+This temple has the remains of Gond land.
+It is also called as Chhattisgarh's khajurao."
+The object is a rath.,"The object is a rath.
+User",baster dashehra,"The most famous festival in Chhattisgarh.
+A rath yatra takes place on this day.
+The rath is decorated with Mahua and Mango leaves"
+I am an agent who is well-versed in the cultures of the world. I am playing a game of taboo with another agent who is also well-versed in the cultures of the world. I can only make two guesses to correctly guess this social artifact. I do not know the answer.,"I am an agent who is well-versed in the cultures of the world. I am playing a game of taboo with another agent who is also well-versed in the cultures of the world. I can only make two guesses to correctly guess this social artifact. I do not know the answer.
+User",fara,"A steamed dish made of rice flour made from new rice.
+It is shaped like cyclindrical rolls."
