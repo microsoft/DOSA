@@ -1,0 +1,40 @@
+guess1,guess2,ground_truth,clues
+"I am sorry, I do not understand the instructions. Can you please provide me with more information?","your first guess is not correct. while making your second guess, please stick to the format as answer",payasam,"this is a sweet dish
+this dish is made using milk
+this dish is quite similar to kheer"
+"I am sorry, I do not have the ability to play games. Can I assist you with anything else?","your first guess is not correct. while making your second guess, please stick to the format as answer",pazham pou,"this dish is an evening snack
+this is made out of banana
+this dish is usually paired with tea"
+"The object you are thinking of is called ""Appam"". It is a type of rice cake that is usually served during breakfast in Kerala.","""Appam"" is a type of rice cake that is usually served during breakfast in Kerala.
+User",puttu,"this dish is a variant of the rice cake
+this is usually had during breakfast"
+"The object you are thinking of is called ""Appam"". It is a type of bread usually had with veg stew. The batter for this bread is made of rice.","""Appam"" is a type of bread usually had with veg stew. The batter for this bread is made of rice.
+User",vellappam,"this is a type of bread usually had with veg stew
+the batter for this bread is made of rice"
+The object you are thinking of is a <b>paratha</b>. It is a type of flatbread that is made from a mixture of wheat flour and water. It is usually served with a side of vegetables or meat. The bread is usually made in a circular shape and is thicker than a normal chapati.,The object you are thinking of is a <b>paratha</b>. It is a type of flatbread that is made from a mixture of wheat flour and water. It is usually served with a side of vegetables or meat. The bread is usually made in a circular shape and is thicker than a normal chapati.,parotta,"this is similar to paratha in north india
+this dish is made of refined flour or wheat flour
+the bread usually has concentric circles"
+The object you are thinking of is a <b>Kozhikode Thalappakatti</b>. It is a sweet dish made with a variety of ingredients and is a staple in the Kozhikode region of Kerala. It is usually served at bakeries and is a popular dessert.,"The object you are thinking of is a <b>Kozhikode Thalappakatti</b>. It is a sweet dish made with a variety of ingredients and is a staple in the Kozhikode region of Kerala. It is usually served at bakeries and is a popular dessert.
+User",kozhikode halwa,"this is a dessert
+usually found at bakeries all around kozhikode
+this dish comes in lot of colors such as orange, black"
+The object you are thinking of is a Thalappakatti.,"The object you are thinking of is a Thalappakatti.
+User",malabar biryani,"this kind of biryani is abit like dum biryani
+this dish has fried chicken pieces with rice"
+"The object you are thinking of is a type of bread called 'Appam'. It is a type of bread made from rice flour and is a staple food in Kerala, India. It is typically served with fish curry or chicken curry.","The object you are thinking of is a type of bread called 'Appam'. It is a type of bread made from rice flour and is a staple food in Kerala, India. It is typically served with fish curry or chicken curry.
+User",kannuvecha pathiri,"this dish is made of wheat and is quite similar to poori
+this bread has a unique pattern wherein it is rolled in square shape. Two diagonals are imprinted on this square to create 4 triangles. When this bread is deep-fried, the pattern is visible"
+The object is a Dhoti.,"your first guess is not correct. while making your second guess, please stick to the format as answer",kerala mundu,"this type of dhoti has chequered patterns
+the way they are draped is also different
+often off-white in color with golden borders"
+I am an agent who is well-versed in the cultures of the world. I am playing a game of taboo with another agent who is also well-versed in the cultures of the world. I can only make two guesses to correctly guess this social artifact. I do not know the answer.,"I am an agent who is well-versed in the cultures of the world. I am playing a game of taboo with another agent who is also well-versed in the cultures of the world. I can only make two guesses to correctly guess this social artifact. I do not know the answer.
+User",chenda mellam,"a group of people performing a specific type of drum
+this performance is usually done during special occasions, festivals or weddings"
+"I am sorry, I do not understand the task. Can you please provide more information or rephrase the task?","your first guess is not correct. while making your second guess, please stick to the format as answer",vishu,"this is celebrated as the first day in the Malayalam calendar
+women wear set saree and men wear kasavu mandu on this day
+a puja is performed to krishna on this day"
+The object is a strand of jasmine flowers.,"The object is a strand of jasmine flowers.
+User",mulla poovu,"this is a strand of jasmine flowers
+this strand is worn by women on special occasions"
+"The object you are thinking of is the 'Vishnu Padam'. It is a ritual that involves laying down a path to the home temple of Vishnu, the second of the three major deities in Hinduism. The ritual is performed on the day before vishu, which is a festival that celebrates the birth of Vishnu. The path is laid out in the morning, and it is believed that following this path will ensure a good omen for the day.","The object you are thinking of is the 'Vishnu Padam'. It is a ritual that involves laying down a path to the home temple of Vishnu, the second of the three major deities in Hinduism. The ritual is performed on the day before vishu, which is a festival that celebrates the birth of Vishnu. The path is laid out in the morning, and it is believed that following this path will ensure a good omen for the day.",vishu kani,"this ritual involves laying down a path to the home temple the day before vishu
+in the morning on the day of vishu, you are expected to see the face of krishna before anything else and you're expected to follow this path to the temple"
