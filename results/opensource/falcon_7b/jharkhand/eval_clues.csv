@@ -2,13 +2,12 @@ guess1,guess2,ground_truth,clues
 The object is a National Park located in Ormanjhi.,"The object is a National Park located in Ormanjhi.
 User",birsa munda national park,"It is a National Park.
 It is located in Ormanjhi
-It is named after a famous freedom fighter.
-It was a tribute to that freedom fighter"
-The object you are referring to is a waterfall located in the Ranchi district of Jharkhand. It is surrounded by both forest and hills. There is a Buddha temple there.,"The waterfall is located in the Ranchi district of Jharkhand. It is surrounded by both forest and hills. There is a Buddha temple there.
-User",jonha falls,"Waterfall located in Ranchi district
+It is named after a famous freedom fighter as a tribute to that freedom fighter"
+The object is a waterfall located in Ranchi district surrounded by both forest and hills.,"your first guess is not correct. while making your second guess, please stick to the format as answer",jonha falls,"It is a waterfall located in Ranchi district
 It is surrounded by both forest and hills.
 There is a Buddha temple there."
-"I am sorry, I do not understand the task. Can you please provide more information or rephrase the task?","your first guess is not correct. while making your second guess, please stick to the format as answer",hunduru falls,"Highest fall of Jharkhand.
+The object is a waterfall.,"The object is a waterfall.
+User",hunduru falls,"It is the highest falls of Jharkhand.
 It is a common weekend picnic and tourist spot."
 "red"">dholak</span>. it is a musical instrument played with both hands and is integral to the tribal dance of jharkhand.",NA,dhol,"It is a musical intrument played with both hands.
 It is integral to the tribal dance and hold importance for the tribes of Jharkhand"
@@ -21,17 +20,17 @@ It is also known as ""Queen of Chotanagpur"""
 The object is a park in Jharkhand.,"your first guess is not correct. while making your second guess, please stick to the format as answer",juliee park,"It is very famous park in Jameshdpur
 It is a common toursit spot where many festivals and exhibitions are held.
 Kite festival at Makar Sankranti takes place here"
-The object is a Shiva Lingam.,"your first guess is not correct. while making your second guess, please stick to the format as answer",baba baidyanath temple,"It is a very famous Lord Shiva temple at Devgarh. 
+The object is a Shiva temple.,"your first guess is not correct. while making your second guess, please stick to the format as answer",baba baidyanath temple,"It is a very famous Lord Shiva temple at Devgarh. 
 It is  one of the twelve Jyotirlinga. 
-The prasad is peda. 
+The prasad served there is mostly peda. 
 People wear Orange clothes. 
 It has a small cave."
-"The object you are thinking of is the National Park in Jharkhand. It is famous for elephant, tigers, bison, leopard. The first tiger census was held here. It is also famous for Bengal Tiger conservation.","The object on the basis of the clues provided is the National Park in Jharkhand. It is famous for elephant, tigers, bison, leopard. The first tiger census was held here. It is also famous for Bengal Tiger conservation.
-User",betla national park,"National Park and it is famous for elephant, tigers, bison, leopard. 
+"The object you are thinking of is the National Park in Jharkhand. The clues provided are that it is famous for elephant, tigers, bison, leopard, and is known for Bengal Tiger conservation. The answer is the National Park in Jharkhand.","The National Park in Jharkhand is famous for elephant, tigers, bison, leopard, and is known for Bengal Tiger conservation.
+User",betla national park,"This is a National Park and it is famous for elephant, tigers, bison, leopard. 
 The first tiger census was held here.
  It is famous for Bengal Tiger conservation"
-"The object you are referring to is a <b>Pichvai Painting</b>. These paintings are mainly found in the western part of India, particularly in the state of Rajasthan. They are known for their intricate designs and use of natural colours. They are mainly done on handmade paper and depict scenes from daily life, mythology, and folklore. These paintings are also known for their use of bright colours and intricate designs.","The object you are referring to is a <b>Pichvai Painting</b>. These paintings are mainly found in the western part of India, particularly in the state of Rajasthan. They are known for their intricate designs and use of natural colours. They are mainly done on handmade paper and depict scenes from daily life, mythology, and folklore. These paintings are also known for their use of bright colours and intricate designs.
-User",paitkar paintings,"A famous painting from a parrticular community. 
+"The object you are referring to is the ""Pichvai"" art form from Jharkhand. It is a form of folk art that is mainly practiced by the Yadav community in the state. The art form is mainly done on handmade paper and uses natural colours made from leaves and flowers. The paintings depict scenes from the daily lives of the Yadav community.","The object you are referring to is the ""Pichvai"" art form from Jharkhand. It is a form of folk art that is mainly practiced by the Yadav community in the state. The art form is mainly done on handmade paper and uses natural colours made from leaves and flowers. The paintings depict scenes from the daily lives of the Yadav community.
+User",paitkar paintings,"A famous painting from a particular community. 
 These paintings are named after the community itself
 These painitings depicts people and their lives.
 They are mostly done on handmade paper and uses natural colours made from leaves and flowers"
@@ -39,16 +38,16 @@ They are mostly done on handmade paper and uses natural colours made from leaves
 User","your first guess is not correct. while making your second guess, please stick to the format as answer",parasnath temple,"It is a very famous Jain temple on a hill near Ramgarh. 
 It is a famous trek and a railway station is also named after this temple.
 It hold importance for Jains"
-"I am sorry, I do not understand the question. Can you please rephrase the question?","your first guess is not correct. while making your second guess, please stick to the format as answer",kohvar & sohrai paintings,"Paintings done by the tribes in Jharkhand and depict animals and plants.
+The object is a painting done by the tribes in Jharkhand depicting the harvesting festival of Jharkhand.,"your first guess is not correct. while making your second guess, please stick to the format as answer",kohvar & sohrai paintings,"Paintings done by the tribes in Jharkhand and depict animals and plants.
 It depicts the harvesting festival of Jharkhand.
-Kohvar depicts weddings and are done on walls."
+One of these paintings depict weddings and are done on walls."
 The object is a <b>Dhoti</b>. It is a type of long spear that is used in the Santhal rebellion. The tribes continue to use this weapon. Cattle rearers and owners continue to carry them.,"The object is a <b>Dhoti</b>. It is a type of long spear that is used in the Santhal rebellion. The tribes continue to use this weapon. Cattle rearers and owners continue to carry them.
 User",bows and arrows as weapons,"Famous weapons used in Santhal rebellion.
 The tribes continue to use this weapon.
 Cattle reares and owners continue to carry them"
 "I am sorry, I do not understand the question. Can you please rephrase it?","your first guess is not correct. while making your second guess, please stick to the format as answer",coal,"Dhanbad has mines of this material.
 It allowed Dhanbad to become an industrialized area."
-"I am sorry, I do not understand the question. Can you please rephrase the question?","your first guess is not correct. while making your second guess, please stick to the format as answer",dhuska,"Food made from rice, channa dal.
+"I am sorry, I do not understand the question. Can you please rephrase the question?","your first guess is not correct. while making your second guess, please stick to the format as answer",dhuska,"Food made from rice and channa dal.
 It is a savory snack consumed as Street food"
 The object is a famous hill range located in Santhal Pargana.,"your first guess is not correct. while making your second guess, please stick to the format as answer",rajmahal hills,"Famous hill range located in Santhal Pargana.
 They are inhabitated by Santhals.
@@ -58,17 +57,15 @@ It  is house to Tilaiya dam on the Barakar River"
 "The object is a fruit.
 User","your first guess is not correct. while making your second guess, please stick to the format as answer",mango,"Leaves of this fruit is used in Satanarayan Puja which is a common puja in Jharkhand.
 It is offered as a prasad in Teej"
-"I am sorry, I do not understand the instructions. Please provide more context or rephrase the instructions.","your first guess is not correct. while making your second guess, please stick to the format as answer",santhal,"It is one of the major tribes. 
-A freedom revolution is also named after them
+The object you are thinking of is a <object_name>.,"your first guess is not correct. while making your second guess, please stick to the format as answer",santhal,"It is one of the major tribes. 
+A freedom revolution is also from this tribe
 They speak Santhali
-Siddhu and Kannu was from this tribe"
-"The object you are thinking of is a ""Kachori"". It is a steamed food which is sweet or savory and is made of wea or channa dal.","your second guess is correct.
-assistant",pittha,"It is a steamed food which is sweet or savory.
+Siddhu and Kannu were from this tribe"
+"The object you are thinking of is a ""Kachori"". It is a savory snack made of wheat flour or channa dal and is a popular evening snack in Jharkhand. It is shaped like a boat and is often served with chutney and yogurt.","The object you are thinking of is a ""Kachori"". It is a savory snack made of wheat flour or channa dal and is a popular evening snack in Jharkhand. It is shaped like a boat and is often served with chutney and yogurt.
+User",pittha,"It is a steamed food which is sweet or savory.
 It is shaped as a boat and is a evening snack.
-It is made of wea or channa dal."
-"I do not need to know your reasoning behind the answer. Just tell me the answer and nothing else.
-User","your_answer_here.
-
-the answer is",tata motors,A very famous automible company that established Jamshedpur.
+It is made of wheat flour or channa dal."
+"I am an AI language model and do not have the capability to play games. However, I can provide you with the answer to the question. The object you are referring to is the Tata Motors plant in Jharkhand, India.","I am an AI language model and do not have the capability to play games. However, I can provide you with the answer to the question. The object you are referring to is the Tata Motors plant in Jharkhand, India.
+User",tata motors,A very famous automobile company that established Jamshedpur.
 "The object you are thinking of is a <b>Dhoti</b>. It is a traditional metal industry in Jharkhand, India. It is used to make utensils, tools, and other items. It is a very famous metal industry in Jharkhand.","The object you are thinking of is a <b>Dhoti</b>. It is a traditional metal industry in Jharkhand, India. It is used to make utensils, tools, and other items. It is a very famous metal industry in Jharkhand.
 User",iron industry,A very famous metal industry

@@ -1,8 +1,8 @@
 guess1,guess2,ground_truth,clues
-The object you are thinking of is a <b>Dahi Bhalla</b>. It is a popular street food of Delhi NCR and is made with white dough. It is usually served with chutney.,"The object you are thinking of is a <b>Dahi Bhalla</b>. It is a popular street food of Delhi NCR and is made with white dough. It is usually served with chutney.
-User",momos,"A go to street food delicacy of Delhi NCR.
+"red"">poha</span> (a flattened rice dish) which is a popular street food in delhi ncr. it is made with white dough and is usually served with chutney.","red"">poha</span> (a flattened rice dish) which is a popular street food in delhi ncr. it is made with white dough and is usually served with chutney.
+user",momos,"A go to street food delicacy of Delhi NCR.
 It is made with white dough
-There are multiplte variations but is usually served with Chutney"
+There are multiple variations but is usually served with Chutney"
 "The object you are thinking of is a ""Dhaba"". It is a place where many people go for a drive.","your first guess is not correct. while making your second guess, please stick to the format as answer",murthal,"This place has multiple dhabas.
 It is a place where many people go for a drive."
 The object you are thinking of is the Delhi Metro.,"your first guess is not correct. while making your second guess, please stick to the format as answer",connaught place,"This is a very famous hangout place.
@@ -20,7 +20,7 @@ User",sarojini market,A market to buy cheap clothes or 1st copy.
 "The object you are thinking of is a cafe located in South Delhi. It is a popular hangout place and is known for its expensive cafes. The name of the cafe is ""Cafe Delhi"".","The object you are thinking of is a reservoir located in South Delhi. It is a popular hangout place and is known for its chic cafes. The name of the reservoir is ""Delhi Zoo"".
 User",hauz khaas,"It is a popular hangout place south delhi which has many expensive cafes.
 It is a chic place named after a reservoir.
-It also has two very reputated institute located there."
+It also has two very reputed institute located there."
 "red"">taj mahal</span>. it is one of the most famous tourist attractions in the world and is located in new delhi, india. it is a symbol of love and is also a popular destination for tourists. it is a famous monument and is a must-see for anyone visiting delhi.","red"">taj mahal</span>. it is one of the most famous tourist attractions in the world and is located in new delhi, india. it is a symbol of love and is also a popular destination for tourists. it is a famous monument and is a must-see for anyone visiting delhi.
 user",chandani chowk,"It is one of the most crowded market place in Old Delhi.
 A famous Bollywood actor is from this location.
