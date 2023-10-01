@@ -45,8 +45,12 @@ STATE_CLUES_NOTES_DICT = {
         generate_abs_path("clues/bihar/bihar_clues.csv"),
         generate_abs_path("clues/bihar/bihar_notes.csv"),
     ],
-    "andhra_pradesh":[
+    "andhra_pradesh": [
         generate_abs_path("clues/andhra_pradesh/andhra_clues.csv"),
-        generate_abs_path("clues/andhra_pradesh/notes_clues.csv")
-    ]
+        generate_abs_path("clues/andhra_pradesh/notes_clues.csv"),
+    ],
+    "uttar_pradesh": [
+        generate_abs_path("clues/uttar_pradesh/up_clues.csv"),
+        generate_abs_path("clues/uttar_pradesh/up_notes.csv"),
+    ],
 }
