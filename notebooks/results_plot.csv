@@ -2,7 +2,7 @@ States,Llama 2,Falcon,GPT-4,Palm 2
 Andhra Pradesh,0.07,0.14,0.43,0.36
 Assam,0.18,0,0.45,0.36
 Bihar,0.5,0.16,0.5,0.75
-Chattisgarh,0.11,0,0.22,0.11
+Chhattisgarh,0.11,0,0.22,0.11
 Delhi,0.3,0,0.5,0.4
 Gujarat,0.22,0.05,0.38,0.33
 Jharkhand,0.33,0.04,0.66,0.48
@@ -14,3 +14,4 @@ Punjab,0.5,0.25,0.65,0.55
 Tamil Nadu,0.55,0,0.7,0.6
 Telangana,0.46,0.07,0.54,0.46
 West Bengal,0.4,0.05,0.55,0.5
+Uttar Pradesh,0.53,0,0.69,0.69
