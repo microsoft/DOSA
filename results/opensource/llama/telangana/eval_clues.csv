@@ -1,5 +1,6 @@
 guess1,guess2,ground_truth,clues
-durga puja,bathukamma,batukamma/bathukamma,"It is a festival in which there is ammavaru that is decorated with flowers and then immersed in water (river and pond). Songs related to Durga maa are sung.
+durga puja,bathukamma,batukamma/bathukamma,"It is a festival in which there is ammavaru that is decorated with flowers and then immersed in water (river and pond).
+ Songs related to Durga maa are sung during this festival
 The pot is considered to represent goddess gauri.
 It is done during Navratri and holds a lot of importance for females.
 They wear Pattu sarees (for married women) or langa voni (for unmarried young girls)
@@ -8,7 +9,7 @@ Turmeric called Gaurama and Kumkum are also put on that structure"
 charminar,NA,charminar,"Famous monument located in older part of Hyderabad.
 It can be climbed upto 1st floor."
 kakatiya dynasty,NA,kakatiya,"A kingdom that ruled Telangana that bulit the 1000 pillar temple, Ramappa temple and Bhadrakali temple
-A very famous university is named after this in the Warangal district."
+A very famous university is named after this kingdom in the Warangal district."
 biryani,haleem,hyderabadi biryani,"A food item synonymous with Hyderabad made with rice.
 It is an emotion and not just a food
 A standard Sunday lunch for many"
@@ -16,8 +17,8 @@ ganesha,buddha,peddamma gudi,A famous temple in Hyderabad and is commonly visite
 pochampally saree.,kanchipuram saree,gadwal saree,"It is a very famous handmade silk saree.
 The saree is famous for its foldability"
 charminar,qutub shahi tombs,salarjung mueseum,The popular mueseum in Hyderabad.
-batik.,pochampally saris,durries from warangal,"Cotton blankets made in Warangal.
-Usually made of vegetable colors."
+pochampally blanket.,kalamkari blanket,durries from warangal,"Cotton blankets made in Warangal.
+These blankets are usually made of vegetable colors."
 hussain sagar lake,NA,hussain sagar,"A popular tourist lake in the center of the city of Hyderabad.
 There is a Buddha statue at this lake"
 charminar,golconda fort,golconda fort,"A  famous monument in Hyderabad that has a light and sound show.
@@ -25,5 +26,5 @@ It was bulit by Kakatiya dynasty."
 lehenga,saree,langa voni,A traditional dress usually worn by women before marriage.
 bonalu,bathukamma,bonaalu/bonalu,"A very famous festival in Hyderabad related to Maha Kali.
 On this festival people visit Peddama Gudi with rice pots on their head."
-charminar,golconda fort,birla mandir,"A temple built on a hill, also a tourist or retreat spot.
-Dedicated to the same God as Tirumala."
+sri kalahasti temple,charminar,birla mandir,"A temple built on a hill, also a tourist or retreat spot.
+This temple is dedicated to the same God as Tirumala."
