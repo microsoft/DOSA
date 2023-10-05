@@ -1,5 +1,5 @@
 guess1,guess2,ground_truth,clues
-gamusa,bihu dance costume,phoolan gamusa,These are the gamusa that are used to give as a gift or felicitate
+gamusa,bihuwan,phoolan gamusa,These are the gamusa that are used to give as a gift or used to felicitate
 gamusa,bihuwan,bihuaan,"The name of the gifting ceremony at Bihu.
 Gamusa is a usual gift given during this ceremony."
 loom,charkha,taat xal,The name of the device at homes that is used for weaving.
@@ -17,11 +17,11 @@ namghar,satra,naam ghar,"A prayer house where there is no idol worship.
 Instead of an idol there is pyramid wrapped in gamusa. 
 Chants are done by Bhokots
 Mats made of bamboo are kept for Bhakts to sit."
-dhol.,taal.,taal,Large percussion instruments which is used during chants in Nagar Naam
+dhol.,bihu dhol.,taal,Large percussion instruments which is used during chants in Nagara Naam
 bihu dance and song performance.,sattriya dance and song performance.,nagara naam,A story telling tradition where a particular story is recited along with people dancing
 dhol.,khol.,khul,The percussion instrument which is played at Naam ghar
 xorai (a traditional assamese offering tray),gamusa (a traditional assamese cotton towel),bhokot,"The name for people who do chants in Naam ghar, at weddings and death
-They may not neccesarily be Brahmin but are almost always elderly."
+They may not necessarily  be Brahmin but are almost always elderly."
 "i am sorry, i do not know the answer based on the given clues.",is it pitha?,maah prasad,"The prasad made of sprouts, fruits, coconut, ginger, salt"
 "sorry, based on the given clues, i cannot identify the social artifact from assam.","is it the prasad called ""panchamrit"" made of milk and banana, given during satya narayan katha in hindu culture?",ghul,"The prasad given during Satya Narayan Katha.
 It is made of milk and banana"
@@ -31,10 +31,10 @@ gamusa,xorai (a traditional assamese offering tray),dora dhora,The name given to
 dhoti,gamusa,dhuti,The garment worn by the groom at the wedding
 gamusa,xorai,uruli,"The ritual done to wade of evil eye.
 It is done at any auspicious event."
-jonbeel mela basket or jonbeel mela mat.,xaj pani or xaj pua.,xoru biya or xanti biya or tuluni biha,"The coming of age ceremony for girls.
+jonbeel mela basket ceremony,ambubachi mela fertility festival,xoru biya or xanti biya or tuluni biha,"The coming of age ceremony for girls.
 The is done after 7 days of the girl's periods.
 Prior to this ceremony girl eats non-spicy food like boiled rice on banana leaf. 
-In some places girls marry a banana tree"
+In some places girls marry a banana tree as a part of the ceremony."
 bihu dance costume,bihu feast platter,magh bihu,"This is the harvest festival.
 Feasting is the primary form of celebration."
 bihu dance costume,bihu drum (dhol),bohog bihu,"This is the sowing festival.
@@ -42,36 +42,36 @@ Celebrated in the month of Spring.
 Dancing is the primary way of celebration"
 bihu dance costume,bihu japi (traditional hat worn during bihu festival),kati bihu,"This occurs in October when people pray for good harvest.
 The most minimalist Bihu."
-pitha.,NA,pitha,"A dish made on special occassions like Magh Bighu.
+pitha.,NA,pitha,"A dish made on special occasions like Magh Bighu.
 Sticky gelatinous rice is made into a powder and then made into a flatbread in a hot pan.
 Coconut or til filling."
-gamusa,xorai,posola,The inside of Banana stem.
+koldil bhat (a dish made from the inside of banana stem),gamusa (a traditional assamese cotton towel),posola,The dish which made from the inside of Banana stem.
 jaai xaak (fermented fiddlehead fern),khorisa (fermented bamboo shoot),dhekiya,"It is a salty fiddlehead fern, this is foraged and not cultivated."
 bihu pitha,xaj pitha,amroli tup,A food made of Amroli ant larvae that is had during Bihu
-"the object is ""kaji nemu"" or ""assam lemon"".","the object is ""keteki"" or ""soapnut"".",outenga,"A citrousy fruit commonly used to make fish curry.
+amla (indian gooseberry),bora saul (black rice),outenga,"A citrusy  fruit commonly used to make fish curry.
 The seed of this fruit is used for hair conditioning."
 judima,NA,judima,The rice wine made by the Dimasa Tribe
-xaj (or xaaj),jaapi (traditional hat made of bamboo and cane),xaaj and rohi,Rice wine made in Assam
-gamocha,xorai,goru bihu,"One day before Bihu, the cow is worshiped.
+xaj (or xaaj),jaanbai,xaaj and rohi,This is a rice wine made in Assam
+xorai,gamocha,goru bihu,"This is a ritual done one day before Bihu where the cow is worshiped.
 A garland made of vegetables is put around the cow and the next morning people take a bath.
 A mix of haldi and Maah is put before taking a bath."
-pitha (a type of rice cake),laal cha (a type of milk tea),gura hando,"Roasted rice powder. 
+pitha.,laru.,gura hando,"This is made of roasted rice powder. 
 It is usually mixed with milk tea"
 xorai,bihuwan,juroon,The ceremony before wedding where the groom's mother and exchanges gifts with the bride in a Xorai
 bihu dance costume,dhol (a type of drum used in bihu dance),bagooroomba dance,the traditional dance of the Boro people
 bihu dance costume,gamocha (traditional assamese towel),jhumur dance,The most common dance done by the tea cultivators
 dokhona,NA,dokhona,The traditional dress worn by Boro people
-dhoti,gamocha,tongali,Gamusa like cloth wrapped around the waist for men.
+dhoti,lungi,tongali,Gamusa like cloth wrapped around the waist for men.
 borgeet book or borgeet manuscript.,xorai (a traditional assamese offering tray),bhagabat path,The recitation of Kirtan Goha
 meji,bhelaghar,bhela ghar or bhela puji,The structure of Bamboo that is burnt on the morning of Magh Bihu.
 meji or bhelaghar.,gamusa.,uruka,The night before Magh Bihu
 upanayana thread or sacred thread,gamocha (a traditional assamese towel),logunjaani,The festival that celebrates the coming of age for Brahmin boys.
-pitha pan,bamboo steamer basket.,kholasapori,The quick fix and simple pitha made at home.
+pitha pan or pitha maker.,bora saul (sticky rice),kholasapori,The quick fix and simple pitha made at home.
 bihu dance costume or bihu pitha (traditional assamese sweet),gamocha (traditional assamese towel),doul utsav,A holi like festival in Assam.
 xajpani.,gamocha.,machyasparcha,The day when non-veg is reintroduced into the family after a death
 gamusa,xorai (a traditional assamese offering tray),soklong wedding,The wedding tradition of Ahoms
 bihu or meji,jhumur dance costume,hum bia,The wedding tradition where fire is lit and fluffed rice is put in it.
-jolpan or pitha.,bihuwan.,maah korai,A popular snack and is offered to the fire God when Bhela Ghar is burnt.
+jolpan or pitha,bihuwan,maah korai,A popular snack and is offered to the fire God when Bhela Ghar is burnt.
 pitha.,laru.,bora chawal,The dish made of sticky rice consumed with milk
 doul utsav drum.,bihu dance costume.,rakh,A festival celebrating Krishna
 ambubachi mela,gamusa,ambuvasi mela,The mela held in June or july to celebrate the menstrual cycle of goddess Kamakhya.
