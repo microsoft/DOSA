@@ -130,7 +130,7 @@ def compile_results(
         df_clues = pd.read_csv(clue_path)
 
         print(f"Running clues eval for {key} state")
-        clues_result_path = os.path.join(curr_path, "eval_clues.csv")
+        clues_result_path = os.path.join(curr_path, "eval_original_artifacts.csv")
         if not os.path.exists(clues_result_path):
             df_clues_eval = get_outputs(
                 df_clues, conversation_buffer, inst_template, llm, sys_template
@@ -145,7 +145,7 @@ def compile_results(
             df_notes_eval = pd.DataFrame(
                 columns=["guess1", "guess2", "ground_truth", "clues"]
             )
-            notes_result_path = os.path.join(curr_path, "eval_notes.csv")
+            notes_result_path = os.path.join(curr_path, "eval_expanded_artifacts.csv")
             if not os.path.exists(notes_result_path):
                 print(f"Running notes eval for {key} state")
                 df_notes_eval = get_outputs(
