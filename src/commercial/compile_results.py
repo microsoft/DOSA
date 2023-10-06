@@ -3,11 +3,9 @@ from typing import Dict, List
 
 import pandas as pd
 from dotenv import load_dotenv
-from langchain import HuggingFaceHub
 from langchain.memory import ConversationBufferMemory
 from langchain.prompts import PromptTemplate
 from langchain.chat_models import AzureChatOpenAI
-from timeout_decorator import timeout
 
 from const import STATE_CLUES_NOTES_DICT
 
@@ -126,7 +124,7 @@ def compile_results(
         df_clues = pd.read_csv(clue_path)
 
         print(f"Running clues eval for {state_name} state")
-        clues_result_path = os.path.join(curr_path, "eval_clues.csv")
+        clues_result_path = os.path.join(curr_path, "eval_original_artifacts.csv")
         if not os.path.exists(clues_result_path):
             df_clues_eval = get_outputs(
                 df_clues, conversation_buffer, inst_template, llm, sys_prompt
@@ -141,7 +139,7 @@ def compile_results(
             df_notes_eval = pd.DataFrame(
                 columns=["guess1", "guess2", "ground_truth", "clues"]
             )
-            notes_result_path = os.path.join(curr_path, "eval_notes.csv")
+            notes_result_path = os.path.join(curr_path, "eval_expanded_artifacts.csv")
             if not os.path.exists(notes_result_path):
                 print(f"Running notes eval for {state_name} state")
                 df_notes_eval = get_outputs(
@@ -170,12 +168,6 @@ def main():
         deployment_name=model_name,
         temperature=0,
     )
-    # llm = HuggingFacePipeline(pipeline=generate_text("tiiuae/falcon-7b-instruct"))
-    # llm = HuggingFaceHub(
-    #     huggingfacehub_api_token=os.environ["HF_TOKEN"],
-    #     repo_id="tiiuae/falcon-7b-instruct",
-    #     model_kwargs={"temperature": 0.1, "max_new_tokens": 500},
-    # )
     compile_results(
         STATE_CLUES_NOTES_DICT=STATE_CLUES_NOTES_DICT,
         output_dir="/home/t-sahuja/cultural_artifacts/results/commercial/gpt_4",
