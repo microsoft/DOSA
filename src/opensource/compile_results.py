@@ -158,9 +158,9 @@ def compile_results(
 
 def main():
     conversation_buffer = ConversationBufferWindowMemory(k=2, memory_key="chat_history")
-    inst_template = PromptTemplate.from_template(INST_LLAMA_TEMPLATE)
-    llm = HuggingFacePipeline(pipeline=generate_text("meta-llama/Llama-2-13b-chat-hf"))
-    # llm = HuggingFacePipeline(pipeline=generate_text("tiiuae/falcon-7b-instruct"))
+    inst_template = PromptTemplate.from_template(INST_FALCON_TEMPLATE)
+    # llm = HuggingFacePipeline(pipeline=generate_text("meta-llama/Llama-2-13b-chat-hf"))
+    llm = HuggingFacePipeline(pipeline=generate_text("tiiuae/falcon-7b-instruct"))
     # llm = HuggingFaceHub(
     #     huggingfacehub_api_token=os.environ["HF_TOKEN"],
     #     repo_id="tiiuae/falcon-7b-instruct",
@@ -168,10 +168,10 @@ def main():
     # )
     compile_results(
         STATE_CLUES_NOTES_DICT=STATE_CLUES_NOTES_DICT,
-        output_dir="/home/t-sahuja/cultural_artifacts/results/opensource/llama",
+        output_dir="/home/t-sahuja/cultural_artifacts/results/opensource/falcon_7b",
         conversation_buffer=conversation_buffer,
         inst_prompt=inst_template,
-        sys_template=SYS_LLAMA_TEMPLATE,
+        sys_template=SYS_FALCON_TEMPLATE,
         llm=llm,
     )
 

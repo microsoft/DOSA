@@ -1,6 +1,10 @@
 from utils import generate_abs_path
 
 STATE_CLUES_NOTES_DICT = {
+    "rajasthan": [
+        generate_abs_path("data/rajasthan/original_artifacts.csv"),
+        generate_abs_path("data/rajasthan/expanded_artifacts.csv"),
+    ],
     "haryana": [
         generate_abs_path("data/haryana/original_artifacts.csv"),
         generate_abs_path("data/haryana/expanded_artifacts.csv"),

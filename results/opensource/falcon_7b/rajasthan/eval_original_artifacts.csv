@@ -1,0 +1,27 @@
+guess1,guess2,ground_truth,clues
+The object is a <b>thali</b> which is a type of plate used in Indian cuisine.,The object is a <b>thali</b> which is a type of plate used in Indian cuisine.,daal baati,this dish is one of the most famous dish of rajasthan
+"I am sorry, I do not understand the task. Can you please provide more information or rephrase the task?","your first guess is not correct. while making your second guess, please stick to the format as answer",gatte,"this dish is quite popular in rajasthan
+this is made out of gram flour"
+"The object you are thinking of is the Hawa Mahal in Jaipur. It is a monument that is situated in the city of Jaipur in Rajasthan, India. It is famous for its intricate design and architecture. It is a popular tourist attraction in India and is a symbol of Rajasthan's rich cultural heritage.","The monument you are thinking of is the Hawa Mahal in Jaipur. It is a monument that is situated in the city of Jaipur in Rajasthan, India. It is famous for its intricate design and architecture. It is a popular tourist attraction in India and is a symbol of Rajasthan's rich cultural heritage.",hawa mahal,"this monument is situated in jaipur
+this monument has lot of windows"
+"I am sorry, I do not understand the instructions. Can you please provide me with more information?","your first guess is not correct. while making your second guess, please stick to the format as answer",ghoomar,this is the folk dance of rajasthan
+The object you are thinking of is a Thalipeeth. It is a non-veg dish made with mutton and is a traditional dish of the Marwari community in Rajasthan.,"The object you are thinking of is a Thalipeeth. It is a non-veg dish made with mutton and is a traditional dish of the Marwari community in Rajasthan.
+User",laal maas,"this is a non-veg dish made with mutton
+the dish has a bright red curry"
+"The object you are thinking of is a <object_name>. It is known as a scary place.
+User","The object you are thinking of is a <object_name>. It is known as a scary place.
+User",bhangarh,this place is known as a scary place
+"I am sorry, I do not understand the question. Can you please rephrase the question?","your first guess is not correct. while making your second guess, please stick to the format as answer",ghewar,this is a popular sweet dish in rajasthan
+"The object you are thinking of is a famous bird sanctuary in Bharatpur, Rajasthan.","The object you are thinking of is a famous bird sanctuary in Bharatpur, Rajasthan.
+User",keoladeo national park,"this is a famous bird sanctuary in bharatpur
+the name of this sanctuary is after a goddess"
+"red"">bakarkhani</span>. it is a sweet dish that is made during festivals in rajasthan. it is also known as ""bakarkhani"" in other parts of india as well.","red"">bakarkhani</span>. it is a sweet dish that is made during festivals in rajasthan. it is also known as ""bakarkhani"" in other parts of india as well.
+user",maal puha,"this is a fried sweet dish
+this dish is then dipped in a sugar syrup after frying
+this dish is cooked during festivals"
+The object you are thinking of is the Pichola Lake in Udaipur. The lake is situated right outside the Udaipur Palace.,"The object you are thinking of is the Pichola Lake in Udaipur. The lake is situated right outside the Udaipur Palace.
+User",lake pichola,"this is a famous lake in Udaipur
+this lake is situated right outside the udaipur palace"
+"I am sorry, I do not have the capability to play games. Can I assist you with anything else?","I am sorry, I do not have the capability to play games. Can I assist you with anything else?
+User",chittorgarh palace,"this is a popular fort of a rajasthani dynasty
+this fort is one of the largest forts in India"
