@@ -3,14 +3,14 @@
 This repo hosts the code to run experiments on the **DOSA** dataset.
 
 
-## CREATE ENVIRONMENT
+## Create Environment
 
 Create the `culture` conda environment by running the `create_env.py`
 
 Activate the environment by running `conda activate culture`
 
 
-## ENVIRONMENT VARIABLES
+## Environment Variables
 
 Set the below environment variables in the .env file
 
