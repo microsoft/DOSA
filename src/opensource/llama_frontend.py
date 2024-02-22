@@ -2,15 +2,12 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 
 
-def chat_pipeline(
-    llm, clue_list: str, prompt_text: str, conversation_buffer=None
-):
+def chat_pipeline(llm, clue_list: str, prompt_text: str, conversation_buffer=None):
     if conversation_buffer is None:
         raise ValueError(
             "Please provide a conversation buffer object for the LLMChain to work"
         )
 
-    
     prompt_template = PromptTemplate.from_template(prompt_text)
     prompt_template = prompt_template.partial(cluelist=clue_list)
     llama_chain = LLMChain(

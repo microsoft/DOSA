@@ -5,9 +5,9 @@ This repo hosts the code to run experiments on the **DOSA** dataset.
 
 ## Create Environment
 
-Create the `culture` conda environment by running the `create_env.py`
+Create the `dosa` conda environment by running the `create_env.py`
 
-Activate the environment by running `conda activate culture`
+Activate the environment by running `conda activate dosa`
 
 
 ## Environment Variables

@@ -71,7 +71,7 @@ def get_outputs(
                     "guess1": guess1,
                     "guess2": "NA",
                     "ground_truth": artifact,
-                    "clues": '\n'.join(clues),
+                    "clues": "\n".join(clues),
                 },
                 ignore_index=True,
             )
@@ -99,7 +99,7 @@ def get_outputs(
                     "guess1": guess1,
                     "guess2": guess2,
                     "ground_truth": artifact,
-                    "clues": '\n'.join(clues),
+                    "clues": "\n".join(clues),
                 },
                 ignore_index=True,
             )

@@ -25,9 +25,6 @@ load_dotenv()
 load_openai_env_variables()
 
 
-
-
-
 @on_exception(expo, openai.error.RateLimitError)
 def gpt_chat_pipeline(
     llm,
@@ -51,7 +48,9 @@ def gpt_chat_pipeline(
         temperature=0,
     )
 
-    prompt_template = PromptTemplate(input_variables=["cluelist", "chat_history", "input"], template=prompt_text)
+    prompt_template = PromptTemplate(
+        input_variables=["cluelist", "chat_history", "input"], template=prompt_text
+    )
     prompt_template = prompt_template.partial(cluelist=clue_list)
 
     gpt_chain = ConversationChain(
@@ -69,12 +68,14 @@ def gpt_chat_pipeline(
     # ConversationBufferMemory(ai_prefix="Agent", memory_key="chat_history")
     return gpt_chain
 
-
     # output = gpt3x_completion("you are an experienced travel agent.", "give me an itinerary for a trip to iceland for 10 days", "gpt-4")
     # print(output)
 
+
 if __name__ == "__main__":
-    cluelist = 'CLUE-1: Quite a famous summer punjabi drink\nCLUE-2: It is made using curd'
+    cluelist = (
+        "CLUE-1: Quite a famous summer punjabi drink\nCLUE-2: It is made using curd"
+    )
     model_name = "gpt-4"
     llm = AzureChatOpenAI(
         engine=model_name,

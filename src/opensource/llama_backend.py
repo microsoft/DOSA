@@ -38,7 +38,9 @@ def get_model_tokenizer(model_id, hf_token=os.getenv("HF_TOKEN")):
         device_map="auto",
         use_auth_token=hf_token,
     )
-    tokenizer = AutoTokenizer.from_pretrained(model_id, use_auth_token=hf_token, return_token_type_ids=False)
+    tokenizer = AutoTokenizer.from_pretrained(
+        model_id, use_auth_token=hf_token, return_token_type_ids=False
+    )
     return model, tokenizer
 
 
@@ -86,7 +88,9 @@ def generate_text(
 
 def decode_output(model, tokenizer, pr):
     model.eval()
-    model_inputs = tokenizer(pr, return_tensors="pt", return_token_type_ids=False).to("cuda:0")
+    model_inputs = tokenizer(pr, return_tensors="pt", return_token_type_ids=False).to(
+        "cuda:0"
+    )
     input_ids = model_inputs["input_ids"]
     output = model.generate(**model_inputs, do_sample=False, max_length=2048)
     # return (tokenizer.decode(output[0], skip_special_tokens=True))
