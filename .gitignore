@@ -3,5 +3,3 @@
 *.env
 *.ipynb_checkpoints
 *models_downloaded.txt
-*data/
-*data_part2/
