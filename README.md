@@ -22,6 +22,13 @@ Also, export the `PYTHONPATH` variable so that all the packages can work correct
 *Note*
 Make sure that you apply for an access to Llama 2 model. Also, we use HuggingFace to download the llama2 model. Ensure that you use the same email id as the one that you used to apply for the access to the llama 2 model. Generate the `HF_TOKEN` and then store it in the `.env` file
 
+## Citation
+If you're using the dataset, or the code, then please cite it using:
+```
+@misc{Seth_Ahuja_Bali_Sitaram_2024, title={Dosa: A dataset of social artifacts from different Indian geographical subcultures}, 
+url={https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4756716}, journal={SSRN}, author={Seth, Agrima and Ahuja, Sanchit and Bali, Kalika and Sitaram, Sunayana}, year={2024}, month={Feb}} 
+``` 
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
