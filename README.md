@@ -1,4 +1,17 @@
-# DOSA: A Dataset of Social Artifacts from Different Indian Geographical Subcultures
+<div style="display: flex; align-items: center; justify-content: center;">
+  <img src="dosa_image.jpeg" alt="Image description" style="width: 50px; height: 50px; margin-right: 10px;">
+  <h2>
+    DOSA: A Dataset of Social Artifacts from Different Indian Geographical Subcultures
+  </h2>
+</div>
+
+<p align="center">
+  <a href="https://lrec-coling-2024.org/"><img src="https://img.shields.io/badge/LREC_COLING-2024-blue?style=flat"></a>
+  <a href="https://arxiv.org/abs/2403.14651"><img src="https://img.shields.io/badge/arxiv-2403.14651-red"></a>
+  <a href="https://github.com/microsoft/DOSA/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-green">
+  </a>
+</p>
 
 This repo hosts the code to run experiments on the **DOSA** dataset.
 
