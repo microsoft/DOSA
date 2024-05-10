@@ -71,6 +71,10 @@ trademarks or logos is subject to and must follow
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
 
+## Data License
+
+Please refer to our data license [here](DATA_LICENSE.md).
+
 ## Privacy
 
 You can read more about Microsoft's privacy statement [here](https://privacy.microsoft.com/en-us/privacystatement).
