@@ -36,15 +36,28 @@ Also, export the `PYTHONPATH` variable so that all the packages can work correct
 Make sure that you apply for an access to Llama 2 model. Also, we use HuggingFace to download the llama2 model. Ensure that you use the same email id as the one that you used to apply for the access to the llama 2 model. Generate the `HF_TOKEN` and then store it in the `.env` file
 
 ## Citation
-If you're using the dataset, or the code, then please cite it using:
+If you're using the dataset, or the code, then please use the following bibTEX:
 ```
-@misc{seth2024dosa,
-      title={DOSA: A Dataset of Social Artifacts from Different Indian Geographical Subcultures}, 
-      author={Agrima Seth and Sanchit Ahuja and Kalika Bali and Sunayana Sitaram},
-      year={2024},
-      eprint={2403.14651},
-      archivePrefix={arXiv},
-      primaryClass={cs.CY}
+@inproceedings{seth-etal-2024-dosa-dataset,
+    title = "{DOSA}: A Dataset of Social Artifacts from Different {I}ndian Geographical Subcultures",
+    author = "Seth, Agrima  and
+      Ahuja, Sanchit  and
+      Bali, Kalika  and
+      Sitaram, Sunayana",
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.474",
+    pages = "5323--5337",
+    abstract = "Generative models are increasingly being used in various applications, such as text generation, commonsense reasoning, and question-answering. To be effective globally, these models must be aware of and account for local socio-cultural contexts, making it necessary to have benchmarks to evaluate the models for their cultural familiarity. Since the training data for LLMs is web-based and the Web is limited in its representation of information, it does not capture knowledge present within communities that are not on the Web. Thus, these models exacerbate the inequities, semantic misalignment, and stereotypes from the Web. There has been a growing call for community-centered participatory research methods in NLP. In this work, we respond to this call by using participatory research methods to introduce DOSA, the first community-generated Dataset of 615 Social Artifacts, by engaging with 260 participants from 19 different Indian geographic subcultures. We use a gamified framework that relies on collective sensemaking to collect the names and descriptions of these artifacts such that the descriptions semantically align with the shared sensibilities of the individuals from those cultures. Next, we benchmark four popular LLMs and find that they show significant variation across regional sub-cultures in their ability to infer the artifacts.",
 }
 
 ``` 
